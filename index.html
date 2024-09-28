@@ -1,1 +1,65 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>キャラクター一覧</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h2 {
+            color: #333;
+        }
+        .character {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+        .ability, .hint {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>キャラクター一覧</h1>
+
+    <div id="characters"></div>
+
+    <script>
+        fetch('characters.json')
+            .then(response => response.json())
+            .then(data => {
+                const charactersDiv = document.getElementById("characters");
+                data.characters.forEach(character => {
+                    const characterDiv = document.createElement("div");
+                    characterDiv.className = "character";
+                    characterDiv.innerHTML = `
+                        <h2>${character.name}</h2>
+                        <p><strong>視力:</strong> ${character.視力}</p>
+                        <p><strong>クラス:</strong> ${character.クラス}</p>
+                        <p><strong>聴覚:</strong> ${character.聴覚}</p>
+                        <p><strong>危険度:</strong> ${character.危険度}</p>
+                        <p><strong>速度:</strong> ${character.速度}</p>
+                        <p><strong>難易度:</strong> ${character.難易度}</p>
+                        <div class="ability">
+                            <strong>ANGER:</strong>
+                            <p><strong>獲得量:</strong> ${character.ANGER.獲得量}</p>
+                            <p><strong>能力:</strong> ${character.ANGER.能力}</p>
+                            <p><strong>詳細:</strong> ${character.ANGER.詳細}</p>
+                        </div>
+                        <p class="hint"><strong>ヒント:</strong> ${character.ヒント}</p>
+                    `;
+                    charactersDiv.appendChild(characterDiv);
+                });
+            })
+            .catch(error => console.error('Error fetching JSON:', error));
+    </script>
+
+</body>
+</html>
 
