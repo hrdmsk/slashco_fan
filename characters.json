@@ -6,12 +6,12 @@
             "class": "CRYPTID",
             "hearing": "正常",
             "danger": "かなり",
-            "speed": "Fost",
+            "speed": "速い",
             "difficulty": "Hard",
             "ANGER": {
-                "gain": "danger: かなり",
-                "ability": "生存者が目標を達成しているときに[怒り]が急速に増加します。",
-                "details": "追跡中、ボーグマイアは怒りを失い、追跡が遅くなる。[怒り]が50%以上になるとスプリントabilityを獲得。",
+                "gain": "高",
+                "ability": "生存者が目標を達成しているときに[ANGER]が急速に増加します。",
+                "details": "追跡中、ボーグマイアは怒りを失い、追跡が遅くなる。[ANGER]が50%以上になるとスプリントabilityを獲得。",
                 "attack": {
                     "type": ["パンチ", "キック"],
                     "properties": {
@@ -28,14 +28,14 @@
             "class": "DEMON",
             "hearing": "正常",
             "danger": "かなり",
-            "speed": "ノーマル",
+            "speed": "普通",
             "difficulty": "ノーマル",
             "ANGER": {
                 "gain": "高",
-                "ability": "シドが60%以上の[怒り]に達すると拳銃を引き出す。",
-                "details": "銃の[怒り]が100%に達すると、銃を持って追いかける。"
+                "ability": "シドが60%以上の[ANGER]に達すると拳銃を引き出す。",
+                "details": "銃の[ANGER]が100%に達すると、銃を持って追いかける。"
             },
-            "hint": "マップの周囲にクッキーが生成され、食べることで[怒り]が8減少。"
+            "hint": "マップの周囲にクッキーが生成され、食べることで[ANGER]が8減少。"
         },
         {
             "name": "Bababooey",
@@ -47,7 +47,7 @@
             "speed": "通常",
             "ANGER": {
                 "gain": "普通",
-                "ability": "i:[怒り]メーターが>50%に達すると大音量の合図でページを非表示に。",
+                "ability": "i:[ANGER]メーターが>50%に達すると大音量の合図でページを非表示に。",
                 "details": "不可視状態のとき、生存者を見つけて再び見える。"
             },
             "hint": "隠蔽abilityがあるので、姿が見えなくなる際は注意が必要。"
@@ -76,7 +76,7 @@
             "ANGER": {
                 "gain": "a2",
                 "danger": "低",
-                "ability": "[怒り]が60%以上でマップ全体のhearingに敏感に。"
+                "ability": "[ANGER]が60%以上でマップ全体のhearingに敏感に。"
             },
             "hint": "モーション検出器なので、音が鳴ったら動きを止める。"
         },
@@ -88,7 +88,7 @@
             "class": "DEMON",
             "ANGER": {
                 "gain": "高",
-                "ability": "0～50%の[怒り]で受動的になる。",
+                "ability": "0～50%の[ANGER]で受動的になる。",
                 "details": "ミルクジャグを探す。"
             },
             "hint": "近くでミルクジャグを飲まないこと。"
@@ -101,7 +101,7 @@
             "class": "CRYPTID",
             "ANGER": {
                 "gain": "普通",
-                "ability": "[怒り]60%以上でショットガンで追跡。",
+                "ability": "[ANGER]60%以上でショットガンで追跡。",
                 "details": ""
             },
             "hint": "距離を保つこと。"
@@ -110,12 +110,12 @@
             "name": "ウォッチャー",
             "vision": "非常に高い",
             "hearing": "正常",
-            "speed": "[ANGER] 低",
+            "speed": "低",
             "class": "UMBRAJ",
             "difficulty": "ハード",
             "ANGER": {
                 "gain": "",
-                "ability": "[怒り]が急速に増加し、遠くからストーキング開始。",
+                "ability": "[ANGER]が急速に増加し、遠くからストーキング開始。",
                 "details": ""
             },
             
