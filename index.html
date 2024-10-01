@@ -46,24 +46,28 @@
                     characterDiv.className = "character";
                     characterDiv.innerHTML = `
                         <h2>${character.name}</h2>
-                        <p><strong>視力:</strong> ${character.視力}</p>
-                        <p><strong>クラス:</strong> ${character.クラス}</p>
-                        <p><strong>聴覚:</strong> ${character.聴覚}</p>
-                        <p><strong>危険度:</strong> ${character.危険度}</p>
-                        <p><strong>速度:</strong> ${character.速度}</p>
-                        <p><strong>難易度:</strong> ${character.難易度}</p>
+                        <p><strong>視力:</strong> ${character.vision}</p>
+                        <p><strong>クラス:</strong> ${character.class}</p>
+                        <p><strong>聴覚:</strong> ${character.hearing}</p>
+                        <p><strong>危険度:</strong> ${character.danger}</p>
+                        <p><strong>速度:</strong> ${character.speed}</p>
+                        <p><strong>難易度:</strong> ${character.difficulty}</p>
                         <div class="ability">
                             <strong>ANGER:</strong>
-                            <p><strong>獲得量:</strong> ${character.ANGER.獲得量}</p>
-                            <p><strong>能力:</strong> ${character.ANGER.能力}</p>
-                            <p><strong>詳細:</strong> ${character.ANGER.詳細}</p>
+                            <p><strong>獲得量:</strong> ${character.ANGER.gain}</p>
+                            <p><strong>能力:</strong> ${character.ANGER.ability}</p>
+                            <p><strong>詳細:</strong> ${character.ANGER.details}</p>
                         </div>
-                        <p class="hint"><strong>ヒント:</strong> ${character.ヒント}</p>
+                        <p class="hint"><strong>ヒント:</strong> ${character.hint}</p>
                     `;
                     charactersDiv.appendChild(characterDiv);
                 });
             })
-            .catch(error => console.error('Error fetching JSON:', error));
+            .catch(error => {
+                const charactersDiv = document.getElementById("characters");
+                charactersDiv.innerHTML = `<p style="color: red;">エラーが発生しました: ${error.message}</p>`;
+                console.error('Error fetching JSON:', error);
+            });
     </script>
 
 </body>
