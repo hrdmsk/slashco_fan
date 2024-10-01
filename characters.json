@@ -25,7 +25,7 @@
         {
             "name": "シド",
             "vision": "普通",
-            "class": "デーモン",
+            "class": "DEMON",
             "hearing": "正常",
             "danger": "かなり",
             "speed": "ノーマル",
@@ -40,7 +40,7 @@
         {
             "name": "Bababooey",
             "vision": "低い",
-            "class": "暗号化ID",
+            "class": "CRYPTID",
             "hearing": "高",
             "danger": "中",
             "difficulty": "ノーマル",
