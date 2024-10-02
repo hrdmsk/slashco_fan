@@ -3,7 +3,7 @@
         {
             "name": "ボーグマイア",
             "vision": "高い",
-            "class": "CRYPTID",
+            "class": "CRYPTID 未確認生物",
             "hearing": "正常",
             "danger": "かなり",
             "speed": "速い",
@@ -40,9 +40,9 @@
         {
             "name": "Bababooey",
             "vision": "低い",
-            "class": "CRYPTID",
+            "class": "CRYPTID 未確認生物",
             "hearing": "高",
-            "danger": "中",
+            "danger": "MODERATE-中",
             "difficulty": "ノーマル",
             "speed": "通常",
             "ANGER": {
@@ -53,11 +53,11 @@
             "hint": "隠蔽abilityがあるので、姿が見えなくなる際は注意が必要。"
         },
         {
-            "name": "アボミニャット",
+            "name": "アボミニャット Abomignat",
             "vision": "普通",
-            "class": "CRYPTID",
+            "class": "CRYPTID 未確認生物",
             "hearing": "悪い",
-            "danger": "中",
+            "danger": "MODERATE-中",
             "difficulty": "簡単",
             "speed": "ノーマル",
             "ANGER": {
@@ -98,7 +98,7 @@
             "vision": "普通",
             "hearing": "正常",
             "speed": "通常",
-            "class": "CRYPTID",
+            "class": "CRYPTID 未確認生物",
             "ANGER": {
                 "gain": "普通",
                 "ability": "[ANGER]60%以上でショットガンで追跡。",
