@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:title" content="Slash.CoのFanサイト">
+        <meta property="og:description" content="">
+        <link rel="stylesheet" href="style.css">
+        <title>Slasher list</title>
+    </head>
+    <body>
+        <h1>Slasher一覧</h1>
+        <p>VRChat内のゲーム SlashCoのFanサイトです。</p>
+        <div class="container">
+            <div id="characters"></div>
+            <script>
+                fetch('characters.json')
+                    .then(response => {
+                        if (!response.ok) {
+                            throw new Error('Network response was not ok');
+                        }
+                        return response.json();
+                    })
+                    .then(data => {
+                        const charactersDiv = document.getElementById("characters");
+                        data.characters.forEach(character => {
+                            const characterDiv = document.createElement("div");
+                            characterDiv.className = "character";
+                            characterDiv.innerHTML = `
+                                <h2>${character.name}</h2>
+                                <p><strong>視力:</strong> ${character.vision}</p>
+                                <p><strong>クラス:</strong> ${character.class}</p>
+                                <p><strong>聴覚:</strong> ${character.hearing}</p>
+                                <p><strong>危険度:</strong> ${character.danger}</p>
+                                <p><strong>速度:</strong> ${character.speed}</p>
+                                <p><strong>難易度:</strong> ${character.difficulty}</p>
+                                <div class="ability">
+                                    <strong>ANGER:</strong>
+                                    <p><strong>獲得量:</strong> ${character.ANGER.gain}</p>
+                                    <p><strong>能力:</strong> ${character.ANGER.ability}</p>
+                                    <p><strong>詳細:</strong> ${character.ANGER.details}</p>
+                                </div>
+                                <p class="hint"><strong>ヒント:</strong> ${character.hint}</p>
+                            `;
+                            charactersDiv.appendChild(characterDiv);
+                        });
+                    })
+                    .catch(error => {
+                        const charactersDiv = document.getElementById("characters");
+                        charactersDiv.innerHTML = `<p style="color: red;">エラーが発生しました: ${error.message}</p>`;
+                        console.error('Error fetching JSON:', error);
+                    });
+            </script>
+        </div>
+        <footer>
+            <a href=" https://hrdmsk.github.io/slashco_fan/">
+                <p>TOP</p>
+            </a>
+        </footer>
+    </body>
+</html>
