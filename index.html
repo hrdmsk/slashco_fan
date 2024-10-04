@@ -11,8 +11,32 @@
         <title>Slasher list</title>
     </head>
     <body>
-        <h1>Slasher一覧</h1>
-        <p>VRChat内のゲーム SlashCoのFanサイトです。</p>
+        <header>
+            <h1>Slasher一覧</h1>
+            <p>VRChat内のゲーム SlashCoのFanサイトです。</p>
+            <input type="text" id="searchInput" placeholder="キャラクター名を入力">
+            <script>
+                const searchInput = document.getElementById('searchInput');
+                const searchResults = document.getElementById('searchResults');
+                const charactersData = /* 上記のJSONデータをここに代入 */
+                
+                searchInput.addEventListener('input', () => {
+                  const searchTerm = searchInput.value.toLowerCase();
+                  searchResults.innerHTML = '';
+                
+                  const filteredCharacters = charactersData.characters.filter(character =>
+                    character.name.toLowerCase().includes(searchTerm)
+                  );
+                
+                  filteredCharacters.forEach(character => {
+                    const li = document.createElement('li');
+                    li.textContent = character.name;
+                    searchResults.appendChild(li);
+                  });
+                });
+            </script>
+            <ul id="searchResults"></ul>
+        </header>
         <div class="container">
             <div id="characters"></div>
             <script>
