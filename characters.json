@@ -23,7 +23,7 @@
             "hint": "直線で走ることを避け、コーナーをカットするかループできる領域を見つける。"
         },
         {
-            "name": "シド",
+            "name": "シド sid",
             "vision": "普通",
             "class": "DEMON",
             "hearing": "正常",
@@ -73,6 +73,7 @@
             "hearing": "ヤバい",
             "speed": "最速",
             "class": "アンブラジ",
+            "difficulty": "ハード DIVASTATING",
             "ANGER": {
                 "gain": "a2",
                 "danger": "低",
@@ -112,7 +113,7 @@
             "hearing": "正常",
             "speed": "低",
             "class": "UMBRAJ",
-            "difficulty": "ハード",
+            "difficulty": "ハード DIVASTATING",
             "ANGER": {
                 "gain": "",
                 "ability": "[ANGER]が急速に増加し、遠くからストーキング開始。",
