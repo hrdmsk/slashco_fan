@@ -12,78 +12,82 @@
     </head>
     <body>
         <header>
-            <img src="https://files.vrchat.cloud/World-SlashCo-VR-Image-202236f1_.file_ce8cec04-e6b6-4caa-bc29-f1ad4739c7af.2.png?Expires=1729728000&Key-Pair-Id=K3JAQ0Y971TV2Z&Signature=dyqxhZpgllXVGw1p5xD9B4De84qvx3ez25VaNGTNxzrnkbTAATaFQnYokLjlPM~tVcyEhaAR1Ly6qWVGsmw-ZWpVU7IS53Ym3PVMiTb5-mXLli3~PGC~5HqdVOsWyIi8guJcGDaFrPqX3i4wmWKnWh9EXig2XnuqZIj857R3le1ICBXbXtr1bX8kRjhjpgM5TXbjIFG47ku1q7-HiQwIiXr0Y3X9SgyeilqZ4wyJbTkDQidkMmmo5kH9zahNA6k3RMUevNkPVONuq7iON-E6OlIrDgi9Et1PUvYKOC9PMiHy6akzZQb1PnvhBRkVy5MGemGZWxJPN3awZ2fOFhclQA__" alt="">
-            <h1>Slasher一覧</h1>
-            <p>VRChat内のゲーム SlashCoのFanサイトです。</p>
-            <input type="text" id="searchInput" placeholder="キャラクター名を入力">
-            <button id="searchButton">検索</button>
-            <ul id="searchResults"></ul>
-            <script>
-                const searchInput = document.getElementById('searchInput');
-                const searchButton = document.getElementById('searchButton');
-                const searchResults = document.getElementById('searchResults');
-                const charactersData = 'characters.json'
+            <div class="container-lg">
+                <img src="https://files.vrchat.cloud/World-SlashCo-VR-Image-202236f1_.file_ce8cec04-e6b6-4caa-bc29-f1ad4739c7af.2.png?Expires=1729728000&Key-Pair-Id=K3JAQ0Y971TV2Z&Signature=dyqxhZpgllXVGw1p5xD9B4De84qvx3ez25VaNGTNxzrnkbTAATaFQnYokLjlPM~tVcyEhaAR1Ly6qWVGsmw-ZWpVU7IS53Ym3PVMiTb5-mXLli3~PGC~5HqdVOsWyIi8guJcGDaFrPqX3i4wmWKnWh9EXig2XnuqZIj857R3le1ICBXbXtr1bX8kRjhjpgM5TXbjIFG47ku1q7-HiQwIiXr0Y3X9SgyeilqZ4wyJbTkDQidkMmmo5kH9zahNA6k3RMUevNkPVONuq7iON-E6OlIrDgi9Et1PUvYKOC9PMiHy6akzZQb1PnvhBRkVy5MGemGZWxJPN3awZ2fOFhclQA__" alt="">
+                <h1>Slasher一覧</h1>
+                <p>VRChat内のゲーム SlashCoのFanサイトです。</p>
+                <input type="text" id="searchInput" placeholder="キャラクター名を入力">
+                <button id="searchButton">検索</button>
+                <ul id="searchResults"></ul>
+                <script>
+                    const searchInput = document.getElementById('searchInput');
+                    const searchButton = document.getElementById('searchButton');
+                    const searchResults = document.getElementById('searchResults');
+                    const charactersData = 'characters.json'
 
-                // 検索ボタンをクリックしたときの処理
-                searchButton.addEventListener('click', () => {
-                    const searchTerm = searchInput.value.toLowerCase();
-                    searchResults.innerHTML = '';
+                    // 検索ボタンをクリックしたときの処理
+                    searchButton.addEventListener('click', () => {
+                        const searchTerm = searchInput.value.toLowerCase();
+                        searchResults.innerHTML = '';
 
-                    const filteredCharacters = charactersData.characters.filter(character =>
-                        character.name.toLowerCase().includes(searchTerm)
-                    );
+                        const filteredCharacters = charactersData.characters.filter(character =>
+                            character.name.toLowerCase().includes(searchTerm)
+                        );
 
-                    filteredCharacters.forEach(character => {
-                        const li = document.createElement('li');
-                        li.textContent = character.name;
-                        searchResults.appendChild(li);
-                    });
-                });
-            </script>
-            <ul id="searchResults"></ul>
-        </header>
-        <div class="container">
-            <div id="characters"></div>
-            <script>
-                fetch('characters.json')
-                    .then(response => {
-                        if (!response.ok) {
-                            throw new Error('Network response was not ok');
-                        }
-                        return response.json();
-                    })
-                    .then(data => {
-                        const charactersDiv = document.getElementById("characters");
-                        data.characters.forEach(character => {
-                            const characterDiv = document.createElement("div");
-                            characterDiv.className = "character";
-                            characterDiv.innerHTML = `
-                                <h2>${character.name}</h2>
-                                <p><strong>視力:</strong> ${character.vision}</p>
-                                <p><strong>クラス:</strong> ${character.class}</p>
-                                <p><strong>聴覚:</strong> ${character.hearing}</p>
-                                <p><strong>危険度:</strong> ${character.danger}</p>
-                                <p><strong>速度:</strong> ${character.speed}</p>
-                                <p><strong>難易度:</strong> ${character.difficulty}</p>
-                                <div class="ability">
-                                    <strong>ANGER:</strong>
-                                    <p><strong>獲得量:</strong> ${character.ANGER.gain}</p>
-                                    <p><strong>能力:</strong> ${character.ANGER.ability}</p>
-                                    <p><strong>詳細:</strong> ${character.ANGER.details}</p>
-                                </div>
-                                <p class="hint"><strong>ヒント:</strong> ${character.hint}</p>
-                            `;
-                            charactersDiv.appendChild(characterDiv);
+                        filteredCharacters.forEach(character => {
+                            const li = document.createElement('li');
+                            li.textContent = character.name;
+                            searchResults.appendChild(li);
                         });
-                    })
-                    .catch(error => {
-                        const charactersDiv = document.getElementById("characters");
-                        charactersDiv.innerHTML = `<p style="color: red;">エラーが発生しました: ${error.message}</p>`;
-                        console.error('Error fetching JSON:', error);
                     });
-            </script>
+                </script>
+                <ul id="searchResults"></ul>
+            </div>
+        </header>
+        <div class="container-lg">
+            <div class="container">
+                <div id="characters"></div>
+                <script>
+                    fetch('characters.json')
+                        .then(response => {
+                            if (!response.ok) {
+                                throw new Error('Network response was not ok');
+                            }
+                            return response.json();
+                        })
+                        .then(data => {
+                            const charactersDiv = document.getElementById("characters");
+                            data.characters.forEach(character => {
+                                const characterDiv = document.createElement("div");
+                                characterDiv.className = "character";
+                                characterDiv.innerHTML = `
+                                    <h2>${character.name}</h2>
+                                    <p><strong>視力:</strong> ${character.vision}</p>
+                                    <p><strong>クラス:</strong> ${character.class}</p>
+                                    <p><strong>聴覚:</strong> ${character.hearing}</p>
+                                    <p><strong>危険度:</strong> ${character.danger}</p>
+                                    <p><strong>速度:</strong> ${character.speed}</p>
+                                    <p><strong>難易度:</strong> ${character.difficulty}</p>
+                                    <div class="ability">
+                                        <strong>ANGER:</strong>
+                                        <p><strong>獲得量:</strong> ${character.ANGER.gain}</p>
+                                        <p><strong>能力:</strong> ${character.ANGER.ability}</p>
+                                        <p><strong>詳細:</strong> ${character.ANGER.details}</p>
+                                    </div>
+                                    <p class="hint"><strong>ヒント:</strong> ${character.hint}</p>
+                                `;
+                                charactersDiv.appendChild(characterDiv);
+                            });
+                        })
+                        .catch(error => {
+                            const charactersDiv = document.getElementById("characters");
+                            charactersDiv.innerHTML = `<p style="color: red;">エラーが発生しました: ${error.message}</p>`;
+                            console.error('Error fetching JSON:', error);
+                        });
+                </script>
+            </div>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
         </div>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
         <footer>
             <a href="https://hrdmsk.github.io/slashco_fan/">
                 <p>TOP</p>
