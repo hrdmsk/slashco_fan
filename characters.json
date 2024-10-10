@@ -1,13 +1,13 @@
 {
     "characters": [
         {
-            "name": "ボーグマイア",
+            "name": "Borgmire/ボーグマイア",
             "vision": "高い",
             "class": "CRYPTID 未確認生物",
             "hearing": "正常",
-            "danger": "かなり",
+            "danger": "CONSIDERABLE かなり",
             "speed": "速い",
-            "difficulty": "Hard",
+
             "ANGER": {
                 "gain": "高",
                 "ability": "生存者が目標を達成しているときに[ANGER]が急速に増加します。",
@@ -23,13 +23,12 @@
             "hint": "直線で走ることを避け、コーナーをカットするかループできる領域を見つける。"
         },
         {
-            "name": "シド sid",
+            "name": "Sid/シド",
             "vision": "普通",
-            "class": "DEMON",
+            "class": "DEMON 悪魔",
             "hearing": "正常",
-            "danger": "かなり",
+            "danger": "CONSIDERABLE かなり",
             "speed": "普通",
-            "difficulty": "ノーマル",
             "ANGER": {
                 "gain": "高",
                 "ability": "シドが60%以上の[ANGER]に達すると拳銃を引き出す。",
@@ -43,7 +42,6 @@
             "class": "CRYPTID 未確認生物",
             "hearing": "高",
             "danger": "MODERATE-中",
-            "difficulty": "ノーマル",
             "speed": "通常",
             "ANGER": {
                 "gain": "普通",
@@ -53,12 +51,11 @@
             "hint": "隠蔽abilityがあるので、姿が見えなくなる際は注意が必要。"
         },
         {
-            "name": "アボミニャット Abomignat",
+            "name": "Abomignat/アボミニャット",
             "vision": "普通",
             "class": "CRYPTID 未確認生物",
             "hearing": "悪い",
             "danger": "MODERATE-中",
-            "difficulty": "簡単",
             "speed": "ノーマル",
             "ANGER": {
                 "gain": "低",
@@ -68,14 +65,14 @@
             "hint": "hearingがあまり優れていないので、利用することができる。"
         },
         {
-            "name": "トロレージュ・イオ",
+            "name": "Trollge/トロージュ",
             "vision": "低い",
             "hearing": "ヤバい",
+            "danger": "DIVASTATING-高",
             "speed": "最速",
-            "class": "アンブラジ",
-            "difficulty": "DIVASTATING-高",
+            "class": "Shadow 影",
             "ANGER": {
-                "gain": "a2",
+                "gain": "",
                 "danger": "低",
                 "ability": "[ANGER]が60%以上でマップ全体のhearingに敏感に。"
             },
@@ -86,7 +83,8 @@
             "vision": "普通",
             "hearing": "高",
             "speed": "ノーマル",
-            "class": "DEMON",
+            "danger": "CONSIDERABLE かなり",
+            "class": "DEMON 悪魔",
             "ANGER": {
                 "gain": "高",
                 "ability": "0～50%の[ANGER]で受動的になる。",
@@ -108,12 +106,12 @@
             "hint": "距離を保つこと。"
         },
         {
-            "name": "ウォッチャー Watcher",
+            "name": "Watcher/ウォッチャー",
             "vision": "非常に高い",
             "hearing": "正常",
             "speed": "低",
+            "danger": "DIVASTATING-高",
             "class": "UMBRAJ",
-            "difficulty": "DIVASTATING-高",
             "ANGER": {
                 "gain": "",
                 "ability": "[ANGER]が急速に増加し、遠くからストーキング開始。",
