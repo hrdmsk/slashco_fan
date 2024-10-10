@@ -113,8 +113,8 @@
             "danger": "DIVASTATING-高",
             "class": "UMBRAJ",
             "ANGER": {
-                "gain": "",
-                "ability": "[ANGER]が急速に増加し、遠くからストーキング開始。",
+                "gain": "時間経過では[ANGER]が上がらない。",
+                "ability": "生存者を追跡している間にのみ[ANGER]が急速増加。遠くからでも視認できる。",
                 "details": ""
             },
             "hint": "オープンエリアを避け、追跡されないようにする。"
