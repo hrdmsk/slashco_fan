@@ -45,7 +45,6 @@
                 </script>
                 <ul id="searchResults"></ul>
                 -->
-
         </header>
         <div class="container-lg">
             <div class="container">
@@ -82,9 +81,8 @@
                                     </div>
                                     <p class="hint"><strong>ヒント:</strong> ${character.hint}</p>
                                 `;
-                                
+
                                 charactersDiv.appendChild(characterDiv);
-                                
                                 // リストアイテムを作成
                                 const listItem = document.createElement("li");
                                 const characterLink = document.createElement("a");
@@ -93,7 +91,6 @@
                                 listItem.appendChild(characterLink);
                                 characterList.appendChild(listItem); // リストアイテムをリストに追加
                             });
-                
                             // キャラクターリストをページに追加
                             charactersDiv.prepend(characterList);
                         })
@@ -108,7 +105,7 @@
         </div>
         <footer>
             <div class="container-sm">
-                <ul class="d-flex align-items-center">
+                <ul>
                     <li>
                         <a href="https://hrdmsk.github.io/slashco_fan/">
                             <p>TOP</p>
