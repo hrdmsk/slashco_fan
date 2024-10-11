@@ -1,4 +1,21 @@
 {
+    "template": [
+        {
+            "name": "",
+            "vision": "",
+            "class": "DEMON 悪魔 / CRYPTID 未確認生物",
+            "hearing": "",
+            "danger": "MODERATE / CONSIDERABLE / DIVASTATING",
+            "speed": "速い",
+
+            "ANGER": {
+                "gain": "",
+                "ability": "",
+                "details": ""
+            },
+            "hint": ""
+        }
+    ],
     "characters": [
         {
             "name": "Borgmire/ボーグマイア",
