@@ -7,6 +7,9 @@ body {
     background-position: center;
     color: white;
 }
+ul{
+    padding-left: 0;
+}
 li{
     list-style: none;
 }
