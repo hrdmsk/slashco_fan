@@ -22,8 +22,23 @@ fetch('characters.json')
             <p><strong>危険度:</strong> ${character.danger}</p>
             <p><strong>速度:</strong> ${character.speed}</p>
             <p><strong>詳細:</strong> ${character.bio1}</p>
-            <p><strong>詳細(ネタバレ):</strong> ${character.bio2}</p>
-            
+            <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <strong>詳細(ネタバレ):</strong></p>
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <strong></strong>
+                     ${character.bio2}
+                </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                
+            </div>
             <div class="ability">
                 <strong>ANGER:</strong>
                 <p><strong>獲得量:</strong> ${character.ANGER.gain}</p>
