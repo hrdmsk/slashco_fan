@@ -30,14 +30,14 @@ fetch('characters.json')
             </div>
             <p class="hint"><strong>ヒント:</strong> ${character.hint}</p>
             
-            <div class="accordion" id="accordionExample">
+            <div class="accordion" id="accordion_bio">
                 <div class="accordion-item">
                     <h2 class="accordion-header">
                     <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                         <strong>詳細:</strong>
                     </button>
                     </h2>
-                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordion_bio">
                         <div class="accordion-body">
                             <strong></strong>
                             ${character.bio1}
@@ -50,7 +50,7 @@ fetch('characters.json')
                         <strong>詳細(ネタバレ):</strong>
                     </button>
                     </h2>
-                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordion_bio">
                         <div class="accordion-body">
                             <strong></strong>
                             ${character.bio2}
@@ -63,7 +63,7 @@ fetch('characters.json')
                         <strong>添付ファイル(ネタバレ):</strong>
                     </button>
                     </h2>
-                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordion_bio">
                         <div class="accordion-body">
                             <strong></strong>
                             ${character.file}
