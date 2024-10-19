@@ -21,7 +21,7 @@
     ],
     "characters": [
         {
-            "name": "Borgmire/ボーグマイア",
+            "name": "Borgmire ボーグマイア",
             "othername": "",
             "vision": "高い",
             "class": "CRYPTID 未確認生物",
@@ -46,7 +46,7 @@
             "file": ""
         },
         {
-            "name": "Sid/シド",
+            "name": "Sid シド",
             "othername": "Cookie Monster",
             "vision": "普通",
             "class": "DEMON 悪魔",
@@ -66,7 +66,7 @@
             "file": ""
         },
         {
-            "name": "Bababooey/ババブーイ",
+            "name": "Bababooey ババブーイ",
             "othername": "",
             "vision": "低い",
             "class": "CRYPTID 未確認生物",
@@ -84,7 +84,7 @@
             "file": ""
         },
         {
-            "name": "Abomignat/アボミニャット",
+            "name": "Abomignat アボミニャット",
             "othername": "",
             "vision": "普通",
             "class": "CRYPTID 未確認生物",
@@ -102,7 +102,7 @@
             "file": ""
         },
         {
-            "name": "Trollge/トロージュ",
+            "name": "Trollge トロージュ",
             "othername": "",
             "vision": "低い",
             "hearing": "ヤバい",
@@ -120,7 +120,7 @@
             "file": ""
         },
         {
-            "name": "Thirsty/サースティー",
+            "name": "Thirsty サースティー",
             "othername": "渇いた悪魔, ミルクの悪魔",
             "vision": "普通",
             "hearing": "高",
@@ -140,7 +140,7 @@
             "file": ""
         },
         {
-            "name": "Elmar father/エルマー・ファーザー",
+            "name": "Elmar father エルマー・ファーザー",
             "othername": "",
             "vision": "普通",
             "hearing": "正常",
@@ -157,7 +157,7 @@
             "file": ""
         },
         {
-            "name": "Watcher/ウォッチャー",
+            "name": "Watcher ウォッチャー",
             "othername": "",
             "vision": "非常に高い",
             "hearing": "正常",
@@ -176,7 +176,7 @@
             "file": ""
         },
         {
-            "name": "The Beast/ザ・ビースト",
+            "name": "The Beast ザ・ビースト",
             "othername": "Nico Oneshot, The Bat",
             "vision": "",
             "class": "CRYPTID 未確認生物",
