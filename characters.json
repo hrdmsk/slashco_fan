@@ -7,7 +7,8 @@
             "hearing": "",
             "danger": "MODERATE / CONSIDERABLE / DIVASTATING",
             "speed": "速い",
-
+            "bio1": "",
+            "bio2": "",
             "ANGER": {
                 "gain": "",
                 "ability": "",
@@ -24,7 +25,8 @@
             "hearing": "正常",
             "danger": "CONSIDERABLE かなり",
             "speed": "速い",
-
+            "bio1": "",
+            "bio2": "",
             "ANGER": {
                 "gain": "高",
                 "ability": "生存者が目標を達成しているときに[ANGER]が急速に増加します。",
@@ -46,6 +48,8 @@
             "hearing": "正常",
             "danger": "CONSIDERABLE かなり",
             "speed": "普通",
+            "bio1": "",
+            "bio2": "",
             "ANGER": {
                 "gain": "高",
                 "ability": "シドが60%以上の[ANGER]に達すると拳銃を引き出す。クッキーに反応しなくなる。",
@@ -60,6 +64,8 @@
             "hearing": "高",
             "danger": "MODERATE-中",
             "speed": "通常",
+            "bio1": "",
+            "bio2": "",
             "ANGER": {
                 "gain": "普通",
                 "ability": "i:[ANGER]メーターが>50%に達すると大音量の合図で不可視状態になる。",
@@ -74,6 +80,8 @@
             "hearing": "悪い",
             "danger": "MODERATE-中",
             "speed": "ノーマル",
+            "bio1": "",
+            "bio2": "",
             "ANGER": {
                 "gain": "低",
                 "ability": "時々這いながら生存者を追跡。",
@@ -88,6 +96,8 @@
             "danger": "DIVASTATING-高",
             "speed": "最速",
             "class": "Shadow 影",
+            "bio1": "",
+            "bio2": "",
             "ANGER": {
                 "gain": "",
                 "danger": "低",
@@ -102,6 +112,8 @@
             "speed": "ノーマル",
             "danger": "CONSIDERABLE かなり",
             "class": "DEMON 悪魔",
+            "bio1": "",
+            "bio2": "",
             "ANGER": {
                 "gain": "高",
                 "ability": "0～50%の[ANGER]で受動的になる。",
@@ -111,10 +123,13 @@
         },
         {
             "name": "Elmar father/",
+            "othername": "The Beast/ザ・ビースト",
             "vision": "普通",
             "hearing": "正常",
             "speed": "通常",
             "class": "CRYPTID 未確認生物",
+            "bio1": "",
+            "bio2": "",
             "ANGER": {
                 "gain": "普通",
                 "ability": "[ANGER]60%以上でショットガンで追跡。",
@@ -124,17 +139,38 @@
         },
         {
             "name": "Watcher/ウォッチャー",
+            "othername": "The Beast/ザ・ビースト",
             "vision": "非常に高い",
             "hearing": "正常",
             "speed": "低",
             "danger": "DIVASTATING-高",
+            "bio": "",
             "class": "UMBRAJ",
+            "bio1": "",
+            "bio2": "",
             "ANGER": {
                 "gain": "時間経過では[ANGER]が上がらない。",
                 "ability": "生存者を追跡している間にのみ[ANGER]が急速増加。遠くからでも視認できる。",
                 "details": ""
             },
             "hint": "オープンエリアを避け、追跡されないようにする。"
+        },
+        {
+            "name": "The Beast/ザ・ビースト",
+            "othername": "Nico Oneshot, The Bat",
+            "vision": "",
+            "class": "CRYPTID 未確認生物",
+            "hearing": "",
+            "danger": "CONSIDERABLE かなり",
+            "speed": "",
+            "bio1": "The Beastは光る目と巨大な翼を持つ、恐ろしい蝙蝠のような外見の実体です。The Beastは光源の輝きを喰らい、生存者を暗闇の中に追いやります。また、獲物の追跡を楽しんでいますが、阻止された場合、The Beastは激高します。普段は明るい光で撃退することも出来ますが、激高した状態ではThe Beastは極めて攻撃的になり、執拗に対象を追跡するようになります。",
+            "bio2": "",
+            "ANGER": {
+                "gain": "",
+                "ability": "",
+                "details": ""
+            },
+            "hint": ""
         }
     ]
 }
