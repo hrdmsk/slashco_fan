@@ -21,8 +21,9 @@ fetch('characters.json')
             <p><strong>聴覚:</strong> ${character.hearing}</p>
             <p><strong>危険度:</strong> ${character.danger}</p>
             <p><strong>速度:</strong> ${character.speed}</p>
-            <p><strong>添付ファイル:</strong> ${character.bio1}</p>
-            <p><strong>添付ファイル(ネタバレ):</strong> ${character.bio2}</p>
+            <p><strong>詳細:</strong> ${character.bio1}</p>
+            <p><strong>詳細(ネタバレ):</strong> ${character.bio2}</p>
+            
             <div class="ability">
                 <strong>ANGER:</strong>
                 <p><strong>獲得量:</strong> ${character.ANGER.gain}</p>
@@ -30,6 +31,7 @@ fetch('characters.json')
                 <p><strong>詳細:</strong> ${character.ANGER.details}</p>
             </div>
             <p class="hint"><strong>ヒント:</strong> ${character.hint}</p>
+            <p><strong>添付ファイル(ネタバレ):</strong> ${character.file}</p>
         `;
 
         charactersDiv.appendChild(characterDiv);
