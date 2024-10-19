@@ -7,6 +7,9 @@ body {
     background-position: center;
     color: white;
 }
+li{
+    list-style: none;
+}
 h2 {
     color: #333;
 }
