@@ -46,7 +46,20 @@ fetch('characters.json')
                 <p><strong>詳細:</strong> ${character.ANGER.details}</p>
             </div>
             <p class="hint"><strong>ヒント:</strong> ${character.hint}</p>
-            <p><strong>添付ファイル(ネタバレ):</strong> ${character.file}</p>
+                        <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <strong>添付ファイル(ネタバレ):</strong>
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <strong></strong>
+                    ${character.file}
+                </div>
+                </div>
+            </div>
+            <div class="accordion-item">
         `;
 
         charactersDiv.appendChild(characterDiv);
