@@ -21,8 +21,6 @@ fetch('characters.json')
             <p><strong>聴覚:</strong> ${character.hearing}</p>
             <p><strong>危険度:</strong> ${character.danger}</p>
             <p><strong>速度:</strong> ${character.speed}</p>
-            <p><strong>詳細:</strong> ${character.bio1}</p>
-            
 
             <div class="ability">
                 <strong>ANGER:</strong>

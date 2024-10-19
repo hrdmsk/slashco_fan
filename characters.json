@@ -119,20 +119,22 @@
         },
         {
             "name": "Thirsty/サースティー",
-            "othername": "",
+            "othername": "渇いた悪魔, ミルクの悪魔",
             "vision": "普通",
             "hearing": "高",
-            "speed": "ノーマル",
+            "speed": "通常",
             "danger": "CONSIDERABLE かなり",
             "class": "DEMON 悪魔",
-            "bio1": "",
-            "bio2": "",
+
             "ANGER": {
                 "gain": "高",
-                "ability": "0～50%の[ANGER]で受動的になる。",
-                "details": "ミルクを探す。milkを飲ませるとANGERが10%-12%低下"
+                "ability": "0～50%の[ANGER]で受動的になる。挑発を行わない限り襲ってこない。",
+                "details": "ミルクを探す。milkを飲ませると[ANGER]が10%-12%低下"
             },
             "hint": "近くでミルクを飲まないこと。ミルクが落ちていると寄ってくる。",
+            
+            "bio1": "真っ黒なボディスーツに、真っ白なひび割れたマスクを被った人型のSlasherです。このSlasherは非常に静かに行動し、あまり攻撃的でないように見えますが、挑発には簡単に乗ってくれるでしょう。また、このSlasherは牛肉に深いつながりを持っており、気をそらすのに有効です。",
+            "bio2": "このSlasherは[ANGER]が貯まりやすく、[ANGER]が低~中程度になると、Thirstyは大人しくなり誰も襲わなくなります。また、Thirstyは牛乳を欲しています。",
             "file": ""
         },
         {
