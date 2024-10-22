@@ -33,7 +33,7 @@ fetch('characters.json')
             <div class="accordion" id="accordion_bio">
                 <div class="accordion-item">
                     <h2 class="accordion-header">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse${character.name}One" aria-expanded="true" aria-controls="collapseOne">
                         <strong>詳細:</strong>
                     </button>
                     </h2>
@@ -46,7 +46,7 @@ fetch('characters.json')
                 </div>
                 <div class="accordion-item">
                     <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse${character.name}Two" aria-expanded="false" aria-controls="collapseTwo">
                         <strong>詳細(ネタバレ):</strong>
                     </button>
                     </h2>
@@ -59,7 +59,7 @@ fetch('characters.json')
                 </div>
                 <div class="accordion-item">
                     <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse${character.name}Three" aria-expanded="false" aria-controls="collapseThree">
                         <strong>添付ファイル(ネタバレ):</strong>
                     </button>
                     </h2>
