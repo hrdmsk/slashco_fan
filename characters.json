@@ -21,7 +21,8 @@
     ],
     "characters": [
         {
-            "name": "Borgmire ボーグマイア",
+            "name": "Borgmire",
+            "nameJp": "ボーグマイア",
             "othername": "",
             "vision": "高い",
             "class": "CRYPTID 未確認生物",
@@ -48,7 +49,8 @@
             }
         },
         {
-            "name": "Sid シド",
+            "name": "Sid",
+            "nameJp": "シド",
             "othername": "Cookie Monster",
             "vision": "普通",
             "class": "DEMON 悪魔",
