@@ -2,21 +2,24 @@
     "template": [
         {
             "name": "",
+            "nameJp": "",
             "othername": "",
             "vision": "",
             "class": "DEMON 悪魔 / CRYPTID 未確認生物",
             "hearing": "",
             "danger": "MODERATE / CONSIDERABLE / DIVASTATING",
-            "speed": "速い",
-            "bio1": "",
-            "bio2": "",
+            "speed": "",
             "ANGER": {
                 "gain": "",
                 "ability": "",
                 "details": ""
             },
             "hint": "",
-            "file": ""
+            "docments": {
+                "bio1": "",
+                "bio2": "",
+                "file": ""
+            }
         }
     ],
     "characters": [
