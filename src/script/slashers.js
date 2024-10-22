@@ -17,19 +17,34 @@ fetch('characters.json')
             <h2>${character.name} ${character.nameJp}</h2>
             <div class="characterContainer">
                 <div class="characterContainerLeft">
-                    <p><strong>別名:</strong> ${character.othername}</p>
-                    <p><strong>クラス:</strong> ${character.class}</p>
-                    <p><strong>危険度:</strong> ${character.danger}</p>
-
+                    <ul>
+                        <li>
+                            <strong>別名:</strong> ${character.othername}
+                        </li>
+                        <li>
+                            <strong>クラス:</strong> ${character.class}
+                        </li>
+                        <li>
+                            <strong>危険度:</strong> ${character.danger}
+                        </li>
+                    </ul>
                     <div class="status">
                         <strong>STATUS</strong>
-                        <p><strong>視力:</strong> ${character.STATUS.vision}</p>
-                        <p><strong>聴覚:</strong> ${character.STATUS.hearing}</p>
-                        <p><strong>速度:</strong> ${character.STATUS.speed}</p>
+                        <ul>
+                            <li>
+                                <strong>視力:</strong> ${character.STATUS.vision}
+                            </li>
+                            <li>
+                                <strong>聴覚:</strong> ${character.STATUS.hearing}
+                            </li>
+                            <li>
+                                <strong>速度:</strong> ${character.STATUS.speed}
+                            </li>
+                        </ul>
                     </div>
                 </div>
                 <div class="characterContainerRight">
-                    <img src="${character.img}" alt="${character.name}の画像" width="216" height="216" class="character-thumbnail">
+                    <img src="${character.img}" alt="${character.name}の画像" class="character-thumbnail">
                 </div>
             </div>
             
@@ -37,9 +52,17 @@ fetch('characters.json')
 
             <div class="ability">
                 <strong>ANGER:</strong>
-                <p><strong>獲得量:</strong> ${character.ANGER.gain}</p>
-                <p><strong>能力:</strong> ${character.ANGER.ability}</p>
-                <p><strong>詳細:</strong> ${character.ANGER.details}</p>
+                <ul>
+                    <li>
+                        <strong>獲得量:</strong> ${character.ANGER.gain}
+                    </li>
+                    <li>
+                        <strong>能力:</strong> ${character.ANGER.ability}
+                    </li>
+                    <li>
+                        <strong>詳細:</strong> ${character.ANGER.details}
+                    </li>
+                </ul>
             </div>
             <p class="hint"><strong>ヒント:</strong> ${character.hint}</p>
             
