@@ -62,6 +62,11 @@
             "othername": "Cookie Monster",
             "class": "DEMON 悪魔",
             "danger": "CONSIDERABLE かなり",
+
+            "vision": "普通",
+            "hearing": "普通",
+            "speed": "普通",
+
             "STATUS": {
                 "vision": "普通",
                 "hearing": "普通",
@@ -85,6 +90,11 @@
             "othername": "Phantom, The Man, The mist",
             "class": "CRYPTID 未確認生物",
             "danger": "MODERATE-中",
+
+            "vision": "低い",
+            "hearing": "高い",
+            "speed": "普通",
+
             "STATUS": {
                 "vision": "低い",
                 "hearing": "高い",
@@ -108,6 +118,11 @@
             "othername": "The Alien, The Rat",
             "class": "CRYPTID 未確認生物",
             "danger": "MODERATE-中",
+
+            "vision": "普通",
+            "hearing": "低い",
+            "speed": "普通",
+
             "STATUS": {
                 "vision": "普通",
                 "hearing": "低い",
@@ -132,6 +147,11 @@
             "othername": "",
             "danger": "DIVASTATING-高",
             "class": "Shadow 影",
+
+            "vision": "低い",
+            "hearing": "高い ヤバい",
+            "speed": "最速",
+
             "STATUS": {
                 "vision": "低い",
                 "hearing": "高い ヤバい",
@@ -155,6 +175,11 @@
             "othername": "渇いた悪魔, ミルクの悪魔",
             "danger": "CONSIDERABLE かなり",
             "class": "DEMON 悪魔",
+
+            "vision": "普通",
+            "hearing": "高い",
+            "speed": "普通",
+
             "STATUS": {
                 "vision": "普通",
                 "hearing": "高い",
@@ -177,6 +202,11 @@
             "nameJp": "エルマー・ファーザー",
             "othername": "",
             "class": "CRYPTID 未確認生物",
+
+            "vision": "普通",
+            "hearing": "普通",
+            "speed": "普通",
+
             "STATUS": {
                 "vision": "普通",
                 "hearing": "普通",
@@ -201,6 +231,11 @@
             "danger": "DIVASTATING-高",
             "bio": "",
             "class": "UMBRAJ",
+
+            "vision": "高い 非常に高い",
+            "hearing": "普通",
+            "speed": "低い",
+
             "STATUS": {
                 "vision": "高い 非常に高い",
                 "hearing": "普通",
@@ -222,11 +257,14 @@
             "name": "The Beast",
             "nameJp": "ザ・ビースト",
             "othername": "Nico Oneshot, The Bat",
-            "vision": "",
             "class": "CRYPTID 未確認生物",
-            "hearing": "",
             "danger": "CONSIDERABLE かなり",
-            "speed": "",
+
+            "STATUS": {
+                "vision": "高い 非常に高い",
+                "hearing": "普通",
+                "speed": "低い"
+            },
             "ANGER": {
                 "gain": "",
                 "ability": "",
