@@ -19,10 +19,10 @@ fetch('characters.json')
             <p><strong>クラス:</strong> ${character.class}</p>
             <p><strong>危険度:</strong> ${character.danger}</p>
             <div class="status">
-                <strong>Status</strong>
-                <p><strong>視力:</strong> ${character.status.vision}</p>
-                <p><strong>聴覚:</strong> ${character.status.hearing}</p>
-                <p><strong>速度:</strong> ${character.status.speed}</p>
+                <strong>STATUS</strong>
+                <p><strong>視力:</strong> ${character.STATUS.vision}</p>
+                <p><strong>聴覚:</strong> ${character.STATUS.hearing}</p>
+                <p><strong>速度:</strong> ${character.STATUS.speed}</p>
             </div>
             <div class="ability">
                 <strong>ANGER:</strong>

@@ -6,7 +6,7 @@
             "othername": "",
             "class": "DEMON / CRYPTID",
             "danger": "MODERATE / CONSIDERABLE / DIVASTATING",
-            "status": {
+            "STATUS": {
                 "vision": "",
                 "hearing": "",
                 "speed": ""
@@ -32,7 +32,7 @@
             "othername": "",
             "class": "CRYPTID 未確認生物",
             "danger": "CONSIDERABLE かなり",
-            "status": {
+            "STATUS": {
                 "vision": "高い",
                 "hearing": "普通",
                 "speed": "速い"
@@ -62,7 +62,7 @@
             "othername": "Cookie Monster",
             "class": "DEMON 悪魔",
             "danger": "CONSIDERABLE かなり",
-            "status": {
+            "STATUS": {
                 "vision": "普通",
                 "hearing": "普通",
                 "speed": "普通"
@@ -85,7 +85,7 @@
             "othername": "Phantom, The Man, The mist",
             "class": "CRYPTID 未確認生物",
             "danger": "MODERATE-中",
-            "status": {
+            "STATUS": {
                 "vision": "低い",
                 "hearing": "高い",
                 "speed": "普通"
@@ -108,7 +108,7 @@
             "othername": "The Alien, The Rat",
             "class": "CRYPTID 未確認生物",
             "danger": "MODERATE-中",
-            "status": {
+            "STATUS": {
                 "vision": "普通",
                 "hearing": "低い",
                 "speed": "普通"
@@ -132,7 +132,7 @@
             "othername": "",
             "danger": "DIVASTATING-高",
             "class": "Shadow 影",
-            "status": {
+            "STATUS": {
                 "vision": "低い",
                 "hearing": "高い ヤバい",
                 "speed": "最速"
@@ -155,7 +155,7 @@
             "othername": "渇いた悪魔, ミルクの悪魔",
             "danger": "CONSIDERABLE かなり",
             "class": "DEMON 悪魔",
-            "status": {
+            "STATUS": {
                 "vision": "普通",
                 "hearing": "高い",
                 "speed": "普通"
@@ -177,7 +177,7 @@
             "nameJp": "エルマー・ファーザー",
             "othername": "",
             "class": "CRYPTID 未確認生物",
-            "status": {
+            "STATUS": {
                 "vision": "普通",
                 "hearing": "普通",
                 "speed": "普通"
@@ -201,7 +201,7 @@
             "danger": "DIVASTATING-高",
             "bio": "",
             "class": "UMBRAJ",
-            "status": {
+            "STATUS": {
                 "vision": "高い 非常に高い",
                 "hearing": "普通",
                 "speed": "低い"
