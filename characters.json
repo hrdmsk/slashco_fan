@@ -4,6 +4,7 @@
             "name": "",
             "nameJp": "",
             "othername": "",
+            "img": "/img/",
             "class": "DEMON / CRYPTID",
             "danger": "MODERATE / CONSIDERABLE / DIVASTATING",
             "STATUS": {
@@ -11,7 +12,6 @@
                 "hearing": "",
                 "speed": ""
             },
-
             "ANGER": {
                 "gain": "",
                 "ability": "",
@@ -30,6 +30,7 @@
             "name": "Borgmire",
             "nameJp": "ボーグマイア",
             "othername": "",
+            "img": "/img/Borgmire.webp",
             "class": "CRYPTID 未確認生物",
             "danger": "CONSIDERABLE かなり",
             "STATUS": {
