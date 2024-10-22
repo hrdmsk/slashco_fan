@@ -16,12 +16,14 @@ fetch('characters.json')
         characterDiv.innerHTML = `
             <h2>${character.name} ${character.nameJp}</h2>
             <p><strong>別名:</strong> ${character.othername}</p>
-            <p><strong>視力:</strong> ${character.vision}</p>
             <p><strong>クラス:</strong> ${character.class}</p>
-            <p><strong>聴覚:</strong> ${character.hearing}</p>
             <p><strong>危険度:</strong> ${character.danger}</p>
-            <p><strong>速度:</strong> ${character.speed}</p>
-
+            <div class="status">
+                <strong>Status</strong>
+                <p><strong>視力:</strong> ${character.status.vision}</p>
+                <p><strong>聴覚:</strong> ${character.status.hearing}</p>
+                <p><strong>速度:</strong> ${character.status.speed}</p>
+            </div>
             <div class="ability">
                 <strong>ANGER:</strong>
                 <p><strong>獲得量:</strong> ${character.ANGER.gain}</p>

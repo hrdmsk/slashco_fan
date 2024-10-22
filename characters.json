@@ -4,11 +4,14 @@
             "name": "",
             "nameJp": "",
             "othername": "",
-            "vision": "",
-            "class": "DEMON 悪魔 / CRYPTID 未確認生物",
-            "hearing": "",
+            "class": "DEMON / CRYPTID",
             "danger": "MODERATE / CONSIDERABLE / DIVASTATING",
-            "speed": "",
+            "status": {
+                "vision": "",
+                "hearing": "",
+                "speed": ""
+            },
+
             "ANGER": {
                 "gain": "",
                 "ability": "",
@@ -27,11 +30,13 @@
             "name": "Borgmire",
             "nameJp": "ボーグマイア",
             "othername": "",
-            "vision": "高い",
             "class": "CRYPTID 未確認生物",
-            "hearing": "正常",
             "danger": "CONSIDERABLE かなり",
-            "speed": "速い",
+            "status": {
+                "vision": "高い",
+                "hearing": "普通",
+                "speed": "速い"
+            },
             "ANGER": {
                 "gain": "高",
                 "ability": "生存者が目標を達成しているときに[ANGER]が急速に増加します。",
@@ -55,12 +60,13 @@
             "name": "Sid",
             "nameJp": "シド",
             "othername": "Cookie Monster",
-            "vision": "普通",
             "class": "DEMON 悪魔",
-            "hearing": "正常",
             "danger": "CONSIDERABLE かなり",
-            "speed": "普通",
-
+            "status": {
+                "vision": "普通",
+                "hearing": "普通",
+                "speed": "普通"
+            },
             "ANGER": {
                 "gain": "高",
                 "ability": "シドが60%以上の[ANGER]に達すると拳銃を引き出す。クッキーに反応しなくなる。",
@@ -77,11 +83,13 @@
             "name": "Bababooey",
             "nameJp": "ババブーイ",
             "othername": "Phantom, The Man, The mist",
-            "vision": "低い",
             "class": "CRYPTID 未確認生物",
-            "hearing": "高",
             "danger": "MODERATE-中",
-            "speed": "通常",
+            "status": {
+                "vision": "低い",
+                "hearing": "高い",
+                "speed": "普通"
+            },
             "ANGER": {
                 "gain": "普通",
                 "ability": "i:[ANGER]メーターが>50%に達すると大音量の合図で不可視状態になる。",
@@ -98,11 +106,13 @@
             "name": "Abomignat",
             "nameJp": "アボミニャット",
             "othername": "The Alien, The Rat",
-            "vision": "普通",
             "class": "CRYPTID 未確認生物",
-            "hearing": "悪い",
             "danger": "MODERATE-中",
-            "speed": "ノーマル",
+            "status": {
+                "vision": "普通",
+                "hearing": "低い",
+                "speed": "普通"
+            },
             "ANGER": {
                 "gain": "低",
                 "ability": "時々這いながら生存者を追跡。",
@@ -120,12 +130,13 @@
             "name": "Trollge",
             "nameJp": "トロージュ",
             "othername": "",
-            "vision": "低い",
-            "hearing": "ヤバい",
             "danger": "DIVASTATING-高",
-            "speed": "最速",
             "class": "Shadow 影",
-            
+            "status": {
+                "vision": "低い",
+                "hearing": "高い ヤバい",
+                "speed": "最速"
+            },
             "ANGER": {
                 "gain": "",
                 "danger": "低",
@@ -142,12 +153,13 @@
             "name": "Thirsty",
             "nameJp": "サースティー",
             "othername": "渇いた悪魔, ミルクの悪魔",
-            "vision": "普通",
-            "hearing": "高",
-            "speed": "通常",
             "danger": "CONSIDERABLE かなり",
             "class": "DEMON 悪魔",
-
+            "status": {
+                "vision": "普通",
+                "hearing": "高い",
+                "speed": "普通"
+            },
             "ANGER": {
                 "gain": "高",
                 "ability": "0～50%の[ANGER]で受動的になる。挑発を行わない限り襲ってこない。",
@@ -164,10 +176,12 @@
             "name": "Elmar father",
             "nameJp": "エルマー・ファーザー",
             "othername": "",
-            "vision": "普通",
-            "hearing": "正常",
-            "speed": "通常",
             "class": "CRYPTID 未確認生物",
+            "status": {
+                "vision": "普通",
+                "hearing": "普通",
+                "speed": "普通"
+            },
             "ANGER": {
                 "gain": "普通",
                 "ability": "[ANGER]60%以上でショットガンで追跡。",
@@ -184,12 +198,14 @@
             "name": "Watcher",
             "nameJp": "ウォッチャー",
             "othername": "",
-            "vision": "非常に高い",
-            "hearing": "正常",
-            "speed": "低",
             "danger": "DIVASTATING-高",
             "bio": "",
             "class": "UMBRAJ",
+            "status": {
+                "vision": "高い 非常に高い",
+                "hearing": "普通",
+                "speed": "低い"
+            },
             "ANGER": {
                 "gain": "時間経過では[ANGER]が上がらない。",
                 "ability": "生存者を追跡している間にのみ[ANGER]が急速増加。遠くからでも視認できる。",
