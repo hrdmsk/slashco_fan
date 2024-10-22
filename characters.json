@@ -69,7 +69,8 @@
             }
         },
         {
-            "name": "Bababooey ババブーイ",
+            "name": "Bababooey",
+            "nameJp": "ババブーイ",
             "othername": "Phantom, The Man, The mist",
             "vision": "低い",
             "class": "CRYPTID 未確認生物",
@@ -89,7 +90,8 @@
             }
         },
         {
-            "name": "Abomignat アボミニャット",
+            "name": "Abomignat",
+            "nameJp": "アボミニャット",
             "othername": "The Alien, The Rat",
             "vision": "普通",
             "class": "CRYPTID 未確認生物",
@@ -110,7 +112,8 @@
             }
         },
         {
-            "name": "Trollge トロージュ",
+            "name": "Trollge",
+            "nameJp": "トロージュ",
             "othername": "",
             "vision": "低い",
             "hearing": "ヤバい",
@@ -131,7 +134,8 @@
             }
         },
         {
-            "name": "Thirsty サースティー",
+            "name": "Thirsty",
+            "nameJp": "サースティー",
             "othername": "渇いた悪魔, ミルクの悪魔",
             "vision": "普通",
             "hearing": "高",
@@ -152,7 +156,8 @@
             }
         },
         {
-            "name": "Elmar father エルマー・ファーザー",
+            "name": "Elmar father",
+            "nameJp": "エルマー・ファーザー",
             "othername": "",
             "vision": "普通",
             "hearing": "正常",
@@ -171,7 +176,8 @@
             }
         },
         {
-            "name": "Watcher ウォッチャー",
+            "name": "Watcher",
+            "nameJp": "ウォッチャー",
             "othername": "",
             "vision": "非常に高い",
             "hearing": "正常",
@@ -192,7 +198,8 @@
             }
         },
         {
-            "name": "The Beast ザ・ビースト",
+            "name": "The Beast",
+            "nameJp": "ザ・ビースト",
             "othername": "Nico Oneshot, The Bat",
             "vision": "",
             "class": "CRYPTID 未確認生物",

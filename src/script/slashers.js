@@ -14,7 +14,7 @@ fetch('characters.json')
         characterDiv.className = "character";
         characterDiv.id = character.name; // IDを設定
         characterDiv.innerHTML = `
-            <h2>${character.name}</h2>
+            <h2>${character.name} ${character.nameJp}</h2>
             <p><strong>別名:</strong> ${character.othername}</p>
             <p><strong>視力:</strong> ${character.vision}</p>
             <p><strong>クラス:</strong> ${character.class}</p>
