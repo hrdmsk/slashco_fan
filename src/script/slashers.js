@@ -78,7 +78,7 @@ fetch('characters.json')
         const listItem = document.createElement("li");
         const characterLink = document.createElement("a");
         characterLink.href = `#${character.name}`; // 名前をリンクのハッシュに
-        characterLink.textContent = character.name; // リンクテキストとして名前を設定
+        characterLink.textContent = `${character.name}/${character.nameJp}`; // リンクテキストとして名前を設定
         listItem.appendChild(characterLink);
         characterList.appendChild(listItem); // リストアイテムをリストに追加
     });
