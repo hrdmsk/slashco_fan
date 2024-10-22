@@ -40,7 +40,7 @@ fetch('characters.json')
                     <div id="collapse1" class="accordion-collapse collapse show" data-bs-parent="#accordion_bio">
                         <div class="accordion-body">
                             <strong></strong>
-                            ${character.bio1}
+                            ${character.docments.bio1}
                         </div>
                     </div>
                 </div>
@@ -53,7 +53,7 @@ fetch('characters.json')
                     <div id="collapse2" class="accordion-collapse collapse" data-bs-parent="#accordion_bio">
                         <div class="accordion-body">
                             <strong></strong>
-                            ${character.bio2}
+                            ${character.docments.bio2}
                         </div>
                     </div>
                 </div>
@@ -66,7 +66,7 @@ fetch('characters.json')
                     <div id="collapse3" class="accordion-collapse collapse" data-bs-parent="#accordion_bio">
                         <div class="accordion-body">
                             <strong></strong>
-                            ${character.file}
+                            ${character.docments.file}
                         </div>
                     </div>
                 </div>
