@@ -202,10 +202,7 @@
             "nameJp": "エルマー・ファーザー",
             "othername": "Christian Elmo",
             "class": "CRYPTID 未確認生物",
-
-            "vision": "普通",
-            "hearing": "普通",
-            "speed": "普通",
+            "danger": "MODERATE 普通",
 
             "STATUS": {
                 "vision": "普通",
