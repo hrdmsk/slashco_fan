@@ -37,7 +37,7 @@ fetch('characters.json')
                         <strong>詳細:</strong>
                     </button>
                     </h2>
-                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordion_bio">
+                    <div id="collapse${character.name}One" class="accordion-collapse collapse show" data-bs-parent="#accordion_bio">
                         <div class="accordion-body">
                             <strong></strong>
                             ${character.bio1}
@@ -50,7 +50,7 @@ fetch('characters.json')
                         <strong>詳細(ネタバレ):</strong>
                     </button>
                     </h2>
-                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordion_bio">
+                    <div id="collapse${character.name}Two" class="accordion-collapse collapse" data-bs-parent="#accordion_bio">
                         <div class="accordion-body">
                             <strong></strong>
                             ${character.bio2}
@@ -63,7 +63,7 @@ fetch('characters.json')
                         <strong>添付ファイル(ネタバレ):</strong>
                     </button>
                     </h2>
-                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordion_bio">
+                    <div id="collapse${character.name}Three" class="accordion-collapse collapse" data-bs-parent="#accordion_bio">
                         <div class="accordion-body">
                             <strong></strong>
                             ${character.file}
