@@ -15,6 +15,7 @@ fetch('characters.json')
         characterDiv.id = character.name; // IDを設定
         characterDiv.innerHTML = `
             <h2>${character.name} ${character.nameJp}</h2>
+            <img src="${character.img}" alt="${character.name}の画像" width="216" height="216" class="character-thumbnail">
             <p><strong>別名:</strong> ${character.othername}</p>
             <p><strong>クラス:</strong> ${character.class}</p>
             <p><strong>危険度:</strong> ${character.danger}</p>

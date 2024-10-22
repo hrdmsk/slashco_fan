@@ -61,6 +61,7 @@
             "name": "Sid",
             "nameJp": "シド",
             "othername": "Cookie Monster",
+            "img": "/img/Sid.webp",
             "class": "DEMON 悪魔",
             "danger": "CONSIDERABLE かなり",
 
@@ -89,6 +90,7 @@
             "name": "Bababooey",
             "nameJp": "ババブーイ",
             "othername": "Phantom, The Man, The mist",
+            "img": "/img/Bababooey.webp",
             "class": "CRYPTID 未確認生物",
             "danger": "MODERATE-中",
 
@@ -117,6 +119,7 @@
             "name": "Abomignat",
             "nameJp": "アボミニャット",
             "othername": "The Alien, The Rat",
+            "img": "/img/Abomignat.webp",
             "class": "CRYPTID 未確認生物",
             "danger": "MODERATE-中",
 
@@ -146,6 +149,7 @@
             "name": "Trollge",
             "nameJp": "トロージュ",
             "othername": "",
+            "img": "/img/Trollge.webp",
             "danger": "DIVASTATING-高",
             "class": "Shadow 影",
 
@@ -174,6 +178,7 @@
             "name": "Thirsty",
             "nameJp": "サースティー",
             "othername": "渇いた悪魔, ミルクの悪魔",
+            "img": "/img/noimg.webp",
             "danger": "CONSIDERABLE かなり",
             "class": "DEMON 悪魔",
 
@@ -202,9 +207,9 @@
             "name": "Elmar father",
             "nameJp": "エルマー・ファーザー",
             "othername": "Christian Elmo",
+            "img": "/img/noimg.webp",
             "class": "CRYPTID 未確認生物",
             "danger": "MODERATE 普通",
-
             "STATUS": {
                 "vision": "普通",
                 "hearing": "普通",
@@ -226,8 +231,8 @@
             "name": "Watcher",
             "nameJp": "ウォッチャー",
             "othername": "",
+            "img": "/img/noimg.webp",
             "danger": "DIVASTATING-高",
-            "bio": "",
             "class": "UMBRAJ",
 
             "vision": "高い 非常に高い",
@@ -255,6 +260,7 @@
             "name": "The Beast",
             "nameJp": "ザ・ビースト",
             "othername": "Nico Oneshot, The Bat",
+            "img": "/img/noimg.webp",
             "class": "CRYPTID 未確認生物",
             "danger": "CONSIDERABLE かなり",
 
