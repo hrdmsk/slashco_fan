@@ -29,10 +29,10 @@
         {
             "name": "Borgmire",
             "nameJp": "ボーグマイア",
-            "othername": "",
+            "othername": ["Borg", "Tim"],
             "img": "/img/Borgmire.webp",
             "class": "CRYPTID 未確認生物",
-            "danger": "CONSIDERABLE かなり",
+            "danger": "CONSIDERABLE",
             "STATUS": {
                 "vision": "高い",
                 "hearing": "普通",
@@ -63,7 +63,7 @@
             "othername": "Cookie Monster",
             "img": "/img/Sid.webp",
             "class": "DEMON 悪魔",
-            "danger": "CONSIDERABLE かなり",
+            "danger": "CONSIDERABLE",
             "STATUS": {
                 "vision": "普通",
                 "hearing": "普通",
@@ -87,7 +87,7 @@
             "othername": "Phantom, The Man, The mist",
             "img": "/img/Bababooey.webp",
             "class": "CRYPTID 未確認生物",
-            "danger": "MODERATE-中",
+            "danger": "MODERATE",
             "STATUS": {
                 "vision": "低い",
                 "hearing": "高い",
@@ -111,7 +111,7 @@
             "othername": "The Alien, The Rat",
             "img": "/img/Abomignat.webp",
             "class": "CRYPTID 未確認生物",
-            "danger": "MODERATE-中",
+            "danger": "MODERATE",
             "STATUS": {
                 "vision": "普通",
                 "hearing": "低い",
@@ -135,8 +135,8 @@
             "nameJp": "トロージュ",
             "othername": "",
             "img": "/img/Trollge.webp",
-            "danger": "DIVASTATING-高",
-            "class": "Shadow 影",
+            "danger": "DIVASTATING",
+            "class": "Shadow<wbr>影",
             "STATUS": {
                 "vision": "低い",
                 "hearing": "高い ヤバい",
@@ -159,7 +159,7 @@
             "nameJp": "サースティー",
             "othername": "渇いた悪魔, ミルクの悪魔",
             "img": "/img/noimg.webp",
-            "danger": "CONSIDERABLE かなり",
+            "danger": "CONSIDERABLE",
             "class": "DEMON 悪魔",
             "STATUS": {
                 "vision": "普通",
@@ -184,7 +184,7 @@
             "othername": "Christian Elmo",
             "img": "/img/noimg.webp",
             "class": "CRYPTID 未確認生物",
-            "danger": "MODERATE 普通",
+            "danger": "MODERATE",
             "STATUS": {
                 "vision": "普通",
                 "hearing": "普通",
@@ -207,7 +207,7 @@
             "nameJp": "ウォッチャー",
             "othername": "",
             "img": "/img/noimg.webp",
-            "danger": "DIVASTATING-高",
+            "danger": "DIVASTATING",
             "class": "UMBRAJ",
             "STATUS": {
                 "vision": "高い 非常に高い",
@@ -232,7 +232,7 @@
             "othername": "Nico Oneshot, The Bat",
             "img": "/img/noimg.webp",
             "class": "CRYPTID 未確認生物",
-            "danger": "CONSIDERABLE かなり",
+            "danger": "CONSIDERABLE",
 
             "STATUS": {
                 "vision": "高い 非常に高い",
