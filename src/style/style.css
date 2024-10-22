@@ -35,6 +35,16 @@ h2 {
 .title-card h1 {
     font-size: 3rem;
 }
+.characterContainer{
+    display: flex;
+    .characterContainerLeft{
+        flex: 1;
+    }
+    .characterContainerRight{
+        flex: 1;
+        text-align: right;
+    }
+}
 
 footer{
     text-align: center;

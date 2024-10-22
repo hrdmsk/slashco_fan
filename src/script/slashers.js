@@ -15,16 +15,26 @@ fetch('characters.json')
         characterDiv.id = character.name; // IDを設定
         characterDiv.innerHTML = `
             <h2>${character.name} ${character.nameJp}</h2>
-            <img src="${character.img}" alt="${character.name}の画像" width="216" height="216" class="character-thumbnail">
-            <p><strong>別名:</strong> ${character.othername}</p>
-            <p><strong>クラス:</strong> ${character.class}</p>
-            <p><strong>危険度:</strong> ${character.danger}</p>
-            <div class="status">
-                <strong>STATUS</strong>
-                <p><strong>視力:</strong> ${character.STATUS.vision}</p>
-                <p><strong>聴覚:</strong> ${character.STATUS.hearing}</p>
-                <p><strong>速度:</strong> ${character.STATUS.speed}</p>
+            <div class="characterContainer">
+                <div class="characterContainerLeft">
+                    <p><strong>別名:</strong> ${character.othername}</p>
+                    <p><strong>クラス:</strong> ${character.class}</p>
+                    <p><strong>危険度:</strong> ${character.danger}</p>
+
+                    <div class="status">
+                        <strong>STATUS</strong>
+                        <p><strong>視力:</strong> ${character.STATUS.vision}</p>
+                        <p><strong>聴覚:</strong> ${character.STATUS.hearing}</p>
+                        <p><strong>速度:</strong> ${character.STATUS.speed}</p>
+                    </div>
+                </div>
+                <div class="characterContainerRight">
+                    <img src="${character.img}" alt="${character.name}の画像" width="216" height="216" class="character-thumbnail">
+                </div>
             </div>
+            
+
+
             <div class="ability">
                 <strong>ANGER:</strong>
                 <p><strong>獲得量:</strong> ${character.ANGER.gain}</p>
