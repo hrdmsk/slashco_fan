@@ -250,6 +250,29 @@
                 "bio2": "The Beastの付近にいると懐中電灯の光が徐々に弱くなります。[ANGER]が低~中程度では明るい懐中電灯を浴びせると逃げ出します。しかし、[ANGER]が高まると、時々大きな金切り声を発し、近くにいる生存者を即座に発見します。",
                 "file": ""
             }
+        },
+        {
+            "name": "Hatman",
+            "nameJp": "ハットマン",
+            "othername": [""],
+            "img": "/img/noimg.webp",
+            "class": "",
+            "danger": "",
+            "STATUS": {
+                "vision": "",
+                "hearing": "",
+                "speed": ""
+            },
+            "ANGER": {
+                "gain": "",
+                "ability": "",
+                "details": ""
+            },
+            "hint": "20gベナドリル服用時にのみ出現",
+            "docments": {
+                "bio1": "",
+                "bio2": "",
+                "file": ""
         }
     ]
 }
