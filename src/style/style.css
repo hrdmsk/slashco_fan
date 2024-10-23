@@ -17,6 +17,7 @@ h2 {
 }
 .character {
     border: 1px solid #ccc;
+    background-color: #ccc;
     padding: 10px;
     margin-bottom: 15px;
     border-radius: 5px;
