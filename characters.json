@@ -3,7 +3,7 @@
         {
             "name": "",
             "nameJp": "",
-            "othername": "",
+            "othername": [""],
             "img": "/img/",
             "class": "DEMON / CRYPTID",
             "danger": "MODERATE / CONSIDERABLE / DIVASTATING",
@@ -60,7 +60,7 @@
         {
             "name": "Sid",
             "nameJp": "シド",
-            "othername": "Cookie Monster",
+            "othername": ["Cookie Monster"],
             "img": "/img/Sid.webp",
             "class": "DEMON 悪魔",
             "danger": "CONSIDERABLE",
@@ -84,7 +84,7 @@
         {
             "name": "Bababooey",
             "nameJp": "ババブーイ",
-            "othername": "Phantom, The Man, The mist",
+            "othername": ["Phantom", "The Man", "The mist"],
             "img": "/img/Bababooey.webp",
             "class": "CRYPTID 未確認生物",
             "danger": "MODERATE",
@@ -108,7 +108,7 @@
         {
             "name": "Abomignat",
             "nameJp": "アボミニャット",
-            "othername": "The Alien, The Rat",
+            "othername": ["The Alien", "The Rat"],
             "img": "/img/Abomignat.webp",
             "class": "CRYPTID 未確認生物",
             "danger": "MODERATE",
@@ -157,7 +157,7 @@
         {
             "name": "Thirsty",
             "nameJp": "サースティー",
-            "othername": "渇いた悪魔, ミルクの悪魔",
+            "othername": ["渇いた悪魔", "ミルクの悪魔"],
             "img": "/img/noimg.webp",
             "danger": "CONSIDERABLE",
             "class": "DEMON 悪魔",
@@ -181,7 +181,7 @@
         {
             "name": "Elmar Father",
             "nameJp": "エルマー・ファーザー",
-            "othername": "Christian Elmo",
+            "othername": ["Christian Elmo"],
             "img": "/img/noimg.webp",
             "class": "CRYPTID 未確認生物",
             "danger": "MODERATE",
@@ -229,7 +229,7 @@
         {
             "name": "The Beast",
             "nameJp": "ザ・ビースト",
-            "othername": "Nico Oneshot, The Bat",
+            "othername": ["Nico Oneshot", "The Bat"],
             "img": "/img/noimg.webp",
             "class": "CRYPTID 未確認生物",
             "danger": "CONSIDERABLE",

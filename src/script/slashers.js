@@ -19,7 +19,7 @@ fetch('characters.json')
                 <div class="characterContainerLeft">
                     <ul>
                         <li>
-                            <strong>別名:</strong> ${character.othername}
+                            <strong>別名:</strong>  ${character.othername}
                         </li>
                         <li>
                             <strong>クラス:</strong> ${character.class}
