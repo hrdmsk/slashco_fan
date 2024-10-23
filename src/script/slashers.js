@@ -44,7 +44,7 @@ fetch('characters.json')
                     </div>
                 </div>
                 <div class="characterContainerRight">
-                    <img src="${character.img}" alt="${character.name}の画像" class="character-thumbnail">
+                    <img src="${character.img}" alt="${character.name}-image" class="character-thumbnail">
                 </div>
             </div>
             
