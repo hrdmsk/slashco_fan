@@ -203,12 +203,12 @@
             }
         },
         {
-            "name": "Watcher",
+            "name": "The Watcher",
             "nameJp": "ウォッチャー",
-            "othername": "",
+            "othername": ["The Asent", "Big Brother"],
             "img": "/img/noimg.webp",
             "danger": "DIVASTATING",
-            "class": "UMBRAJ",
+            "class": "Shadow<wbr>影",
             "STATUS": {
                 "vision": "高い 非常に高い",
                 "hearing": "普通",
@@ -221,8 +221,8 @@
             },
             "hint": "オープンエリアを避け、追跡されないようにする。",
             "docments": {
-                "bio1": "",
-                "bio2": "",
+                "bio1": "オリーブ色の外套、丸眼鏡、帽子が特徴の非常に背の高い老人の様な姿をした[UMBRA]の実態です。ふらふらとよろめきながら動き、多くの目撃例で、暗闇に紛れながら標的を観察し続けていると報告されています。このSlasherは集団行動を好んでいますが、1人になると残忍な殺人鬼と化すとも報告されています。",
+                "bio2": "このSlasherは自動的に[ANGER]を得ることはありません。The Watcherは標的を観察している間、非常に速いスピードで[ANGER]が蓄積します。",
                 "file": ""
             }
         },
