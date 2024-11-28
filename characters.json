@@ -274,6 +274,30 @@
                 "bio2": "",
                 "file": ""
             }
+        },
+        {
+            "name": "Dolphinman",
+            "nameJp": "ドルフィンマン",
+            "othername": ["Dolphin"],
+            "img": "/img/noimg.webp",
+            "class": "CRYPTID 未確認生物",
+            "danger": "CONSIDERABLE",
+            "STATUS": {
+                "vision": "非常に低い",
+                "hearing": "非常に高い",
+                "speed": "非常に高い"
+            },
+            "ANGER": {
+                "gain": "",
+                "ability": "爆音を立ててハウリングを用いて探索する。爆音を立てた数分間は検知した人間を全速力で追ってくる。",
+                "details": ""
+            },
+            "hint": "ドルフィンマンの大きな声が聞こえたら全速力で音とは反対の方向へ逃げてください。",
+            "docments": {
+                "bio1": "",
+                "bio2": "",
+                "file": ""
+            }
         }
     ]
 }
