@@ -1,0 +1,303 @@
+{
+    "template": [
+        {
+            "name": "",
+            "nameJp": "",
+            "othername": [""],
+            "img": "/img/",
+            "class": "DEMON / CRYPTID",
+            "danger": "MODERATE / CONSIDERABLE / DIVASTATING",
+            "STATUS": {
+                "vision": "",
+                "hearing": "",
+                "speed": ""
+            },
+            "ANGER": {
+                "gain": "",
+                "ability": "",
+                "details": ""
+            },
+            "hint": "",
+            "docments": {
+                "bio1": "",
+                "bio2": "",
+                "file": ""
+            }
+        }
+    ],
+    "characters": [
+        {
+            "name": "Borgmire",
+            "nameJp": "ボーグマイア",
+            "othername": ["Borg", "Tim"],
+            "img": "/img/Borgmire.webp",
+            "class": "CRYPTID 未確認生物",
+            "danger": "CONSIDERABLE",
+            "STATUS": {
+                "vision": "高い",
+                "hearing": "普通",
+                "speed": "速い"
+            },
+            "ANGER": {
+                "gain": "高",
+                "ability": "生存者が目標を達成しているときに[ANGER]が急速に増加します。",
+                "details": "追跡中、ボーグマイアは怒りを失い、追跡が遅くなる。[ANGER]が50%以上になるとスプリントabilityを獲得。",
+                "attack": {
+                    "type": ["パンチ", "キック"],
+                    "properties": {
+                        "パンチ": "避けられる",
+                        "キック": "確実にヒット (3回目の攻撃はかならずキック)"
+                    }
+                }
+            },
+            "hint": "直線で走ることを避け、コーナーをカットするかループできる領域を見つける。1-2回目のパンチ攻撃は回避可能。3回目のキック攻撃は必中。",
+            "docments": {
+                "bio1": "",
+                "bio2": "",
+                "file": ""
+            }
+        },
+        {
+            "name": "Sid",
+            "nameJp": "シド",
+            "othername": ["Cookie Monster"],
+            "img": "/img/Sid.webp",
+            "class": "DEMON 悪魔",
+            "danger": "CONSIDERABLE",
+            "STATUS": {
+                "vision": "普通",
+                "hearing": "普通",
+                "speed": "普通"
+            },
+            "ANGER": {
+                "gain": "高",
+                "ability": "シドが60%以上の[ANGER]に達すると拳銃を引き出す。クッキーに反応しなくなる。",
+                "details": "銃の[ANGER]が100%に達すると、銃を持って追いかける。"
+            },
+            "hint": "マップにより多くのクッキーが生成され、食べさせることで[ANGER]が8減少。至近距離でクッキーを置くと夢中になって食べる。",
+            "docments": {
+                "bio1": "ボロボロのCookie Monsterのコスチュームの形をした非有機体です。また、Slasherは12.7×99mm NATO弾を射出するリロードが不要な大口径の拳銃で武装しています。このSlasherは非常に攻撃的でサイコパスの傾向が見られ、出来るだけ多くの人間を可能な限り早く殺すことにしか関心を向けません。",
+                "bio2": "このSlasherは[ANGER]が貯まりやすいが、[ANGER]が低いとクッキーを求め始める。クッキーを食べると[ANGER]が少し減少し、1分程度Sidをなだめることが出来る。[ANGER]が高いとSidは銃を装備し、クッキーを食べなくなる。",
+                "file": ""
+            }
+        },
+        {
+            "name": "Bababooey",
+            "nameJp": "ババブーイ",
+            "othername": ["Phantom", "The Man", "The mist"],
+            "img": "/img/Bababooey.webp",
+            "class": "CRYPTID 未確認生物",
+            "danger": "MODERATE",
+            "STATUS": {
+                "vision": "低い",
+                "hearing": "高い",
+                "speed": "普通"
+            },
+            "ANGER": {
+                "gain": "普通",
+                "ability": "i:[ANGER]メーターが>50%に達すると大音量の合図で不可視状態になる。",
+                "details": "不可視状態のとき、生存者を見つけたときに再び見える様になる。"
+            },
+            "hint": "隠蔽abilityがあるので、姿が見えなくなっても注意が必要。",
+            "docments": {
+                "bio1": "非常に濃いタールのような粒子状の煙から構成される非有機的な存在です。筋肉質な一般男性の見た目を形成しており、巨大な顎とニヤついているようにも見える口が特徴です。このSlasherはあまり攻撃的ではなく、人間に遊び心を持っています。人々から怖がられ、驚かせることを楽しんでいるようです。",
+                "bio2": "[ANGER]が貯まると、大きな音を出して透明化します。透明になっている間、彼は捕まえたサバイバーを驚かせます。また、透明な状態では無害なクローン残してサバイバーを怖がらせます。",
+                "file": ""
+            }
+        },
+        {
+            "name": "Abomignat",
+            "nameJp": "アボミニャット",
+            "othername": ["The Alien", "The Rat"],
+            "img": "/img/Abomignat.webp",
+            "class": "CRYPTID 未確認生物",
+            "danger": "MODERATE",
+            "STATUS": {
+                "vision": "普通",
+                "hearing": "低い",
+                "speed": "普通"
+            },
+            "ANGER": {
+                "gain": "低",
+                "ability": "時々這いながら生存者を追跡。",
+                "details": "視野角は200°。"
+            },
+            "hint": "hearingがあまり優れていないので、利用することができる。",
+
+            "docments": {
+                "bio1": "",
+                "bio2": "",
+                "file": ""
+            }
+        },
+        {
+            "name": "Trollge",
+            "nameJp": "トロージュ",
+            "othername": "",
+            "img": "/img/Trollge.webp",
+            "danger": "DIVASTATING",
+            "class": "Shadow<wbr>影",
+            "STATUS": {
+                "vision": "低い",
+                "hearing": "高い ヤバい",
+                "speed": "最速"
+            },
+            "ANGER": {
+                "gain": "",
+                "danger": "低",
+                "ability": "[ANGER]が60%以上でマップ全体にhearing範囲が広がり、よりに音に敏感になる。"
+            },
+            "hint": "動いた音に敏感なので、トロールの足音が鳴ったら動きを止める。音が大きい帰還ヘリの前にキャンプされる",
+            "docments": {
+                "bio1": "",
+                "bio2": "",
+                "file": ""
+            }
+        },
+        {
+            "name": "Thirsty",
+            "nameJp": "サースティー",
+            "othername": ["渇いた悪魔", "ミルクの悪魔"],
+            "img": "/img/noimg.webp",
+            "danger": "CONSIDERABLE",
+            "class": "DEMON 悪魔",
+            "STATUS": {
+                "vision": "普通",
+                "hearing": "高い",
+                "speed": "普通"
+            },
+            "ANGER": {
+                "gain": "高",
+                "ability": "0～50%の[ANGER]で受動的になる。挑発を行わない限り襲ってこない。",
+                "details": "ミルクを探す。milkを飲ませると[ANGER]が10%-12%低下"
+            },
+            "hint": "近くでミルクを飲まないこと。ミルクが落ちていると寄ってくる。",
+            "docments": {
+                "bio1": "真っ黒なボディスーツに、真っ白なひび割れたマスクを被った人型のSlasherです。このSlasherは非常に静かに行動し、あまり攻撃的でないように見えますが、挑発には簡単に乗ってくれるでしょう。また、このSlasherは牛肉に深いつながりを持っており、気をそらすのに有効です。",
+                "bio2": "このSlasherは[ANGER]が貯まりやすく、[ANGER]が低~中程度になると、Thirstyは大人しくなり誰も襲わなくなります。また、Thirstyは牛乳を欲しています。",
+                "file": ""
+            }
+        },
+        {
+            "name": "Elmar Father",
+            "nameJp": "エルマー・ファーザー",
+            "othername": ["Christian Elmo"],
+            "img": "/img/noimg.webp",
+            "class": "CRYPTID 未確認生物",
+            "danger": "MODERATE",
+            "STATUS": {
+                "vision": "普通",
+                "hearing": "普通",
+                "speed": "普通"
+            },
+            "ANGER": {
+                "gain": "普通",
+                "ability": "[ANGER]60%以上でショットガンで追跡。",
+                "details": ""
+            },
+            "hint": "銃が届かないように距離を保ち、直線を避けて壁や曲がり角を活用すること。",
+            "docments": {
+                "bio1": "エルモと呼称されるキャラクターの○○なマスコット・コスチュームの形状をしている非生物のSlasherです。4ゲージのショットガンで武装しており、キリ スト教の信奉者、あるいはむしろ独自の宗教の信奉者として自らを偽装しています。比較的冷齢な性格ではありますが、冷酷でもあるとも言える性格をしています。",
+                "bio2": "このSlasherは[ANGER]が貯まる速度は遅いですが、挑発されると大幅に上昇します。Christian Elmo の[AMGER]が上がると、ショットガン を扱う速度と移動速度が上昇します。",
+                "file": ""
+            }
+        },
+        {
+            "name": "The Watcher",
+            "nameJp": "ウォッチャー",
+            "othername": ["The Asent", "Big Brother"],
+            "img": "/img/noimg.webp",
+            "danger": "DIVASTATING",
+            "class": "Shadow<wbr>影",
+            "STATUS": {
+                "vision": "高い 非常に高い",
+                "hearing": "普通",
+                "speed": "低い"
+            },
+            "ANGER": {
+                "gain": "時間経過では[ANGER]が上がらない。",
+                "ability": "生存者を追跡している間にのみ[ANGER]が急速増加。遠くからでも視認できる。",
+                "details": ""
+            },
+            "hint": "オープンエリアを避け、追跡されないようにする。",
+            "docments": {
+                "bio1": "オリーブ色の外套、丸眼鏡、帽子が特徴の非常に背の高い老人の様な姿をした[UMBRA]の実態です。ふらふらとよろめきながら動き、多くの目撃例で、暗闇に紛れながら標的を観察し続けていると報告されています。このSlasherは集団行動を好んでいますが、1人になると残忍な殺人鬼と化すとも報告されています。",
+                "bio2": "このSlasherは自動的に[ANGER]を得ることはありません。The Watcherは標的を観察している間、非常に速いスピードで[ANGER]が蓄積します。",
+                "file": "[添付ファイル The Watcher]<br>-- 音声記録2 -THE WATCHERS"
+            }
+        },
+        {
+            "name": "The Beast",
+            "nameJp": "ザ・ビースト",
+            "othername": ["Nico Oneshot", "The Bat"],
+            "img": "/img/noimg.webp",
+            "class": "CRYPTID 未確認生物",
+            "danger": "CONSIDERABLE",
+
+            "STATUS": {
+                "vision": "高い 非常に高い",
+                "hearing": "普通",
+                "speed": "低い"
+            },
+            "ANGER": {
+                "gain": "",
+                "ability": "",
+                "details": ""
+            },
+            "hint": "近くにいる時、懐中電灯の光が弱くなります。懐中電灯を当てることで撃退できますが、[ANGER]が非常に高くなりやすくなります。",
+            "docments": {
+                "bio1": "The Beastは光る目と巨大な翼を持つ、恐ろしい蝙蝠のような外見の実体です。The Beastは光源の輝きを喰らい、生存者を暗闇の中に追いやります。また、獲物の追跡を楽しんでいますが、阻止された場合、The Beastは激高します。普段は明るい光で撃退することも出来ますが、激高した状態ではThe Beastは極めて攻撃的になり、執拗に対象を追跡するようになります。",
+                "bio2": "The Beastの付近にいると懐中電灯の光が徐々に弱くなります。[ANGER]が低~中程度では明るい懐中電灯を浴びせると逃げ出します。しかし、[ANGER]が高まると、時々大きな金切り声を発し、近くにいる生存者を即座に発見します。",
+                "file": ""
+            }
+        },
+        {
+            "name": "Hatman",
+            "nameJp": "ハットマン",
+            "othername": [""],
+            "img": "/img/noimg.webp",
+            "class": "",
+            "danger": "",
+            "STATUS": {
+                "vision": "",
+                "hearing": "",
+                "speed": ""
+            },
+            "ANGER": {
+                "gain": "",
+                "ability": "",
+                "details": ""
+            },
+            "hint": "20gベナドリル服用時にのみ出現。Hatmanに触れた瞬間即死する。Hatmanと距離が近い程周囲に蜘蛛の幻覚が見える。Hatman出現時には他のSlasherはあなたを認識できないため追跡されません。",
+            "docments": {
+                "bio1": "",
+                "bio2": "",
+                "file": ""
+            }
+        },
+        {
+            "name": "Dolphinman",
+            "nameJp": "ドルフィンマン",
+            "othername": ["Dolphin"],
+            "img": "/img/noimg.webp",
+            "class": "CRYPTID 未確認生物",
+            "danger": "CONSIDERABLE",
+            "STATUS": {
+                "vision": "非常に低い→非常に高い",
+                "hearing": "非常に高い",
+                "speed": "非常に高い"
+            },
+            "ANGER": {
+                "gain": "",
+                "ability": "エコーロケーションで検知するとハントモードに移行。ハントモード時のみ視力が非常に高くなる。",
+                "details": ""
+            },
+            "hint": "ドルフィンマンの大きな声が聞こえたら全速力で音とは反対の方向へ逃げてください。",
+            "docments": {
+                "bio1": "イルカの生物学的特徴を持ち、人間の体を持つ人型未確認生物。皮膚は粘着性の粘液を分泌し、光沢と湿り気のある質感をしています。視力が非常に低く、周囲の状況を把握するには聴覚とエコーロケーションを使っています。狩りをする際は対象を威嚇するために大きな鳴き声を出し続けます。",
+                "bio2": "このSlasherは非常に敏感だが、視力は極めて低い。大きな音で興奮させると、ドルフィンマンは大声で叫びながら狩りを始める。なおハンティング中は視力が非常に良くなる。また、大きな音に対する感度は[ANGER]に応じて上がる。",
+                "file": "[添付ファイル Dolphinman]######マウザーについて他には？"
+            }
+        }
+    ]
+}
