@@ -230,7 +230,7 @@
             "name": "The Beast",
             "nameJp": "ザ・ビースト",
             "othername": ["Nico Oneshot", "The Bat"],
-            "img": "/img/noimg.webp",
+            "img": "/img/The Beast.webp",
             "class": "CRYPTID 未確認生物",
             "danger": "CONSIDERABLE",
 
@@ -255,7 +255,7 @@
             "name": "Hatman",
             "nameJp": "ハットマン",
             "othername": [""],
-            "img": "/img/noimg.webp",
+            "img": "/img/Hatman.webp",
             "class": "",
             "danger": "",
             "STATUS": {
@@ -279,7 +279,7 @@
             "name": "Dolphinman",
             "nameJp": "ドルフィンマン",
             "othername": ["Dolphin"],
-            "img": "/img/noimg.webp",
+            "img": "/img/Dolphinman.webp",
             "class": "CRYPTID 未確認生物",
             "danger": "CONSIDERABLE",
             "STATUS": {
@@ -303,7 +303,7 @@
             "name": "Igor",
             "nameJp": "イーゴア",
             "othername": ["Tyler, The Creator","Tyler, The Destroyer"],
-            "img": "/img/noimg.webp",
+            "img": "/img/Igor.webp",
             "class": "DEMON",
             "danger": "DIVASTATING",
             "STATUS": {
