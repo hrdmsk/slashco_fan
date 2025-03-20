@@ -12,5 +12,5 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@v4.3.5
       with:
         server: sv4.static.ne.jp
-        username: st262872
+        username: ${{ secrets.ftp_user }}
         password: ${{ secrets.ftp_password }}
