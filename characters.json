@@ -346,6 +346,30 @@
                 "bio2": "Grouchは非常に速いスピードで[ANGER』を温めますが、物の要要下でない限り受動的です。また、Grouchはアイテムを消費することができ、その中にはGrouchをなだめるものもあれば、【痛液」の原因になるものもあります。 さらに、Grouchはロッカーに届れることができ、ロッカーにいる状されると【自】を引き起こします。",
                 "file": ""
             }
+        },
+        {
+            "name": "Princess",
+            "nameJp": "プリンセス",
+            "othername": ["Cupcake","Satan Death Destroy"],
+            "img": "/img/noimg.webp",
+            "class": "DEMON",
+            "danger": "CONSIDERABLE",
+            "STATUS": {
+                "vision": "",
+                "hearing": "",
+                "speed": ""
+            },
+            "ANGER": {
+                "gain": "",
+                "ability": "",
+                "details": ""
+            },
+            "hint": "",
+            "docments": {
+                "bio1": "アメリカン・ピット・ブル・テリアに似た巨大なイヌのクリーチャーで、 く光る緑色の目を持ちます。このデーモンは、人員、特に幼児や小さな子供を窓に願い、なぎ倒そうとすることに強い興味を示すことが確認されています。",
+                "bio2": "このSlasherは[ANGER」が上昇しやすいですが、Princessc Babyを与えることで[ANGER]の上昇を抑え、しばらくの面なだめることが出来ます。攻撃を受けると、Princessは捕食を始めます、 はたから逃れるために抵抗しなければなりません。[ANGER」の値に応じて[並抗』の態度は上昇します。",
+                "file": ""
+            }
         }
     ]
 }
