@@ -257,7 +257,7 @@
             "othername": [""],
             "img": "/img/Hatman.webp",
             "class": "",
-            "danger": "",
+            "danger": "UNKNOWN",
             "STATUS": {
                 "vision": "",
                 "hearing": "",
