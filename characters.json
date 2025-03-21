@@ -206,7 +206,7 @@
             "name": "The Watcher",
             "nameJp": "ウォッチャー",
             "othername": ["The Asent", "Big Brother"],
-            "img": "/img/noimg.webp",
+            "img": "/img/TheWatcher.webp",
             "danger": "DIVASTATING",
             "class": "Shadow<wbr>影",
             "STATUS": {
@@ -230,7 +230,7 @@
             "name": "The Beast",
             "nameJp": "ザ・ビースト",
             "othername": ["Nico Oneshot", "The Bat"],
-            "img": "/img/The Beast.webp",
+            "img": "/img/TheBeast.webp",
             "class": "CRYPTID",
             "danger": "CONSIDERABLE",
 
@@ -375,7 +375,7 @@
             "name": "Speedrunner",
             "nameJp": "スピードランナー",
             "othername": ["",""],
-            "img": "/img/noimg.webp",
+            "img": "/img/Speedrunner.webp",
             "class": "CRYPTID",
             "danger": "DIVASTATING",
             "STATUS": {
