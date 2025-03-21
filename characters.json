@@ -4,7 +4,7 @@
             "name": "",
             "nameJp": "",
             "othername": [""],
-            "img": "/img/",
+            "img": "/slashers/img/",
             "class": "DEMON / CRYPTID",
             "danger": "MODERATE / CONSIDERABLE / DIVASTATING",
             "STATUS": {
@@ -30,7 +30,7 @@
             "name": "Borgmire",
             "nameJp": "ボーグマイア",
             "othername": ["Borg", "Tim"],
-            "img": "/img/Borgmire.webp",
+            "img": "/slashers/img/Borgmire.webp",
             "class": "CRYPTID",
             "danger": "CONSIDERABLE",
             "STATUS": {
@@ -61,7 +61,7 @@
             "name": "Sid",
             "nameJp": "シド",
             "othername": ["Cookie Monster"],
-            "img": "/img/Sid.webp",
+            "img": "/slashers/img/Sid.webp",
             "class": "DEMON 悪魔",
             "danger": "CONSIDERABLE",
             "STATUS": {
@@ -85,7 +85,7 @@
             "name": "Bababooey",
             "nameJp": "ババブーイ",
             "othername": ["Phantom", "The Man", "The mist"],
-            "img": "/img/Bababooey.webp",
+            "img": "/slashers/img/Bababooey.webp",
             "class": "CRYPTID",
             "danger": "MODERATE",
             "STATUS": {
@@ -109,7 +109,7 @@
             "name": "Abomignat",
             "nameJp": "アボミニャット",
             "othername": ["The Alien", "The Rat"],
-            "img": "/img/Abomignat.webp",
+            "img": "/slashers/img/Abomignat.webp",
             "class": "CRYPTID",
             "danger": "MODERATE",
             "STATUS": {
@@ -134,7 +134,7 @@
             "name": "Trollge",
             "nameJp": "トロージュ",
             "othername": "",
-            "img": "/img/Trollge.webp",
+            "img": "/slashers/img/Trollge.webp",
             "danger": "DIVASTATING",
             "class": "UMBRA",
             "STATUS": {
@@ -158,7 +158,7 @@
             "name": "Thirsty",
             "nameJp": "サースティー",
             "othername": ["渇いた悪魔", "ミルクの悪魔"],
-            "img": "/img/Thirsty.webp",
+            "img": "/slashers/img/Thirsty.webp",
             "danger": "CONSIDERABLE",
             "class": "DEMON 悪魔",
             "STATUS": {
@@ -182,7 +182,7 @@
             "name": "Elmar Father",
             "nameJp": "エルマー・ファーザー",
             "othername": ["Christian Elmo"],
-            "img": "/img/ElmarFather.webp",
+            "img": "/slashers/img/ElmarFather.webp",
             "class": "CRYPTID",
             "danger": "MODERATE",
             "STATUS": {
@@ -206,7 +206,7 @@
             "name": "The Watcher",
             "nameJp": "ウォッチャー",
             "othername": ["The Asent", "Big Brother"],
-            "img": "/img/TheWatcher.webp",
+            "img": "/slashers/img/TheWatcher.webp",
             "danger": "DIVASTATING",
             "class": "Shadow<wbr>影",
             "STATUS": {
@@ -230,7 +230,7 @@
             "name": "The Beast",
             "nameJp": "ザ・ビースト",
             "othername": ["Nico Oneshot", "The Bat"],
-            "img": "/img/TheBeast.webp",
+            "img": "/slashers/img/TheBeast.webp",
             "class": "CRYPTID",
             "danger": "CONSIDERABLE",
 
@@ -255,7 +255,7 @@
             "name": "Hatman",
             "nameJp": "ハットマン",
             "othername": [""],
-            "img": "/img/Hatman.webp",
+            "img": "/slashers/img/Hatman.webp",
             "class": "",
             "danger": "UNKNOWN",
             "STATUS": {
@@ -279,7 +279,7 @@
             "name": "Dolphinman",
             "nameJp": "ドルフィンマン",
             "othername": ["Dolphin"],
-            "img": "/img/Dolphinman.webp",
+            "img": "/slashers/img/Dolphinman.webp",
             "class": "CRYPTID",
             "danger": "CONSIDERABLE",
             "STATUS": {
@@ -303,7 +303,7 @@
             "name": "Igor",
             "nameJp": "イーゴア",
             "othername": ["Tyler, The Creator","Tyler, The Destroyer"],
-            "img": "/img/Igor.webp",
+            "img": "/slashers/img/Igor.webp",
             "class": "DEMON",
             "danger": "DIVASTATING",
             "STATUS": {
@@ -327,7 +327,7 @@
             "name": "The Grouch",
             "nameJp": "グローチ",
             "othername": ["Oscar","The Grouch"],
-            "img": "/img/noimg.webp",
+            "img": "/slashers/img/noimg.webp",
             "class": "DEMON",
             "danger": "MODERATE",
             "STATUS": {
@@ -351,7 +351,7 @@
             "name": "Princess",
             "nameJp": "プリンセス",
             "othername": ["Cupcake","Satan Death Destroy"],
-            "img": "/img/Princess.webp",
+            "img": "/slashers/img/Princess.webp",
             "class": "DEMON",
             "danger": "CONSIDERABLE",
             "STATUS": {
@@ -375,7 +375,7 @@
             "name": "Speedrunner",
             "nameJp": "スピードランナー",
             "othername": ["",""],
-            "img": "/img/Speedrunner.webp",
+            "img": "/slashers/img/Speedrunner.webp",
             "class": "CRYPTID",
             "danger": "DIVASTATING",
             "STATUS": {
