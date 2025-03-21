@@ -182,7 +182,7 @@
             "name": "Elmar Father",
             "nameJp": "エルマー・ファーザー",
             "othername": ["Christian Elmo"],
-            "img": "/slashers/img/ElmarFather.webp",
+            "img": "/slashers/img/ElmerFather.webp",
             "class": "CRYPTID",
             "danger": "MODERATE",
             "STATUS": {
