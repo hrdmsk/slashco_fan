@@ -31,7 +31,7 @@
             "nameJp": "ボーグマイア",
             "othername": ["Borg", "Tim"],
             "img": "/img/Borgmire.webp",
-            "class": "CRYPTID 未確認生物",
+            "class": "CRYPTID",
             "danger": "CONSIDERABLE",
             "STATUS": {
                 "vision": "高い",
@@ -86,7 +86,7 @@
             "nameJp": "ババブーイ",
             "othername": ["Phantom", "The Man", "The mist"],
             "img": "/img/Bababooey.webp",
-            "class": "CRYPTID 未確認生物",
+            "class": "CRYPTID",
             "danger": "MODERATE",
             "STATUS": {
                 "vision": "低い",
@@ -110,7 +110,7 @@
             "nameJp": "アボミニャット",
             "othername": ["The Alien", "The Rat"],
             "img": "/img/Abomignat.webp",
-            "class": "CRYPTID 未確認生物",
+            "class": "CRYPTID",
             "danger": "MODERATE",
             "STATUS": {
                 "vision": "普通",
@@ -183,7 +183,7 @@
             "nameJp": "エルマー・ファーザー",
             "othername": ["Christian Elmo"],
             "img": "/img/noimg.webp",
-            "class": "CRYPTID 未確認生物",
+            "class": "CRYPTID",
             "danger": "MODERATE",
             "STATUS": {
                 "vision": "普通",
@@ -231,7 +231,7 @@
             "nameJp": "ザ・ビースト",
             "othername": ["Nico Oneshot", "The Bat"],
             "img": "/img/The Beast.webp",
-            "class": "CRYPTID 未確認生物",
+            "class": "CRYPTID",
             "danger": "CONSIDERABLE",
 
             "STATUS": {
@@ -280,7 +280,7 @@
             "nameJp": "ドルフィンマン",
             "othername": ["Dolphin"],
             "img": "/img/Dolphinman.webp",
-            "class": "CRYPTID 未確認生物",
+            "class": "CRYPTID",
             "danger": "CONSIDERABLE",
             "STATUS": {
                 "vision": "非常に低い→非常に高い",
@@ -368,6 +368,30 @@
             "docments": {
                 "bio1": "アメリカン・ピット・ブル・テリアに似た巨大なイヌのクリーチャーで、 く光る緑色の目を持ちます。このデーモンは、人員、特に幼児や小さな子供を窓に願い、なぎ倒そうとすることに強い興味を示すことが確認されています。",
                 "bio2": "このSlasherは[ANGER」が上昇しやすいですが、Princessc Babyを与えることで[ANGER]の上昇を抑え、しばらくの面なだめることが出来ます。攻撃を受けると、Princessは捕食を始めます、 はたから逃れるために抵抗しなければなりません。[ANGER」の値に応じて[並抗』の態度は上昇します。",
+                "file": ""
+            }
+        },
+        {
+            "name": "Speedrunner",
+            "nameJp": "スピードランナー",
+            "othername": ["",""],
+            "img": "/img/noimg.webp",
+            "class": "CRYPTID",
+            "danger": "DIVASTATING",
+            "STATUS": {
+                "vision": "",
+                "hearing": "",
+                "speed": ""
+            },
+            "ANGER": {
+                "gain": "",
+                "ability": "",
+                "details": ""
+            },
+            "hint": "",
+            "docments": {
+                "bio1": "",
+                "bio2": "",
                 "file": ""
             }
         }
