@@ -374,7 +374,7 @@
         {
             "name": "Speedrunner",
             "nameJp": "スピードランナー",
-            "othername": ["",""],
+            "othername": ["The Hunted",""],
             "img": "/slashers/img/Speedrunner.webp",
             "class": "CRYPTID",
             "danger": "DIVASTATING",
@@ -390,8 +390,8 @@
             },
             "hint": "短期決戦。ゲーム開始から10分経過ぐらいから、プレイヤーの通常速度より早くなる。",
             "docments": {
-                "bio1": "",
-                "bio2": "",
+                "bio1": "大きな骸骨のようなシルエットに緑色の肌、笑みを浮かべる血いマスクを絞った人間実体です。 ブロックを主体にした、サバイバルゲームを短時間で攻略することに関係していると考えられています。このBlasherはスピードをフルに発芽するには一酒のウォームアップ」を必要とします。",
+                "bio2": "None",
                 "file": ""
             }
         }
