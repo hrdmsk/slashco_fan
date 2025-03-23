@@ -14,3 +14,4 @@ jobs:
         server: sv4.static.ne.jp
         username: ${{ secrets.ftp_user }}
         password: ${{ secrets.ftp_password }}
+        local-dir: ./static
