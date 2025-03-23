@@ -327,7 +327,7 @@
             "name": "The Grouch",
             "nameJp": "グローチ",
             "othername": ["Oscar","The Grouch"],
-            "img": "/slashers/img/noimg.webp",
+            "img": "/slashers/img/TheGrouch.webp",
             "class": "DEMON",
             "danger": "MODERATE",
             "STATUS": {
