@@ -107,6 +107,9 @@ fetch('/slashers/characters.json')
                     </div>
                 </div>
             </div>
+            <div>
+                ${character.origin}
+            </div>
         `;
 
         charactersDiv.appendChild(characterDiv);
