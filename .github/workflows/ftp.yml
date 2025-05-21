@@ -14,4 +14,4 @@ jobs:
         server: ${{ secrets.ftp_server}}
         username: ${{ secrets.ftp_user }}
         password: ${{ secrets.ftp_password }}
-        server-dir: /home/4y4/www/jazztro.4y4.jp/
+        server-dir: /home/4y4/www/slashcofan.4y4.jp/
