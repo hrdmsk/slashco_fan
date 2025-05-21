@@ -15,7 +15,3 @@ jobs:
         username: ${{ secrets.ftp_user }}
         password: ${{ secrets.ftp_password }}
         exclude: /home/4y4/www/slashcofan.4y4.jp
-        **/.git*
-        **/.git*/**
-        **/node_modules/**
-        
